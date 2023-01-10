@@ -1,4 +1,4 @@
-1.2 Interface Introduction
+1.2 Εισαγωγή στο Γραφικό Περιβάλλον
 ================================
 
 .. image:: img/pictoblox_interface.jpg
@@ -6,7 +6,7 @@
 
 **Sprites**
 
-A sprite is an object, or a character, that performs different actions in a project. It understands and obeys the commands given to it. Each sprite has specific costumes and sounds that you can also customize.
+Το sprite είναι ένα αντικείμενο , ή χαρακτήρας, που πραγματοποιεί διάφορες ενέργειες σε ένα έργο. It understands and obeys the commands given to it. Each sprite has specific costumes and sounds that you can also customize.
 
 **Stage**
 
