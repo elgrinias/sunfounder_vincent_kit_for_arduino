@@ -1,10 +1,13 @@
-SunFounder Vincent Kit για το Arduino
+SunFounder Vincent Kit for Arduino
 ======================================
 
-Αυτό είναι ένα κιτ κατάλληλο για αρχάριους και γνώστες του Arduino. Το κιτ, το οποίο χρησιμοποιεί το Mega2560 ως κύρια πλακέτα ελέγχου και περιλαμβάνει επιπλέον 64 ευρέως χρσηιμοποιούμενα στοιχεία εισόδου/εξόδου, μονάδες και πολλά άλλα βασικά στοιχεία
-(όπως αντιστάσεις, πυκνωτές, τρανζίστορ κ.λ.π.), βοηθάει σημαντικά στο να υλοποιήσετε και να ολοκληρώσετε τα δικά σας έργα προγραμματισμού. 
+This is a kit suitable for beginners and knowledgable Arduino learners.
+The kit uses Mega2560 as the main control board, containing 64 commonly
+used input and output components, modules and so many basic components
+(such as resistors, capacitors, transistors, etc.), and it can provide
+powerful help for you to finish your programming projects.
 
-Κατεβάστε τον σχετικό κώδικα από τον παρακάτω σύνδεσμο.
+Download the relevant code from the link below.
 
 * :download:`SunFounder Vincent Kit for Arduino <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`
 
