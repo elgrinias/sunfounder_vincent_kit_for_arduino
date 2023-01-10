@@ -1,4 +1,4 @@
-Play with Scratch
+Παίζοντας με το Scratch
 ========================
 
 Besides programming on the Arduino IDE with Uno/Mega2560 boards, we can also use them for graphical programming.
@@ -16,7 +16,7 @@ Just drag and drop the Scratch coding blocks and make cool games, animations, in
 
 Now let's start the journey of discovery!
 
-**1. Get Started**
+**1. Ξεκινώντας**
 
 .. toctree::
     :maxdepth: 2
@@ -27,7 +27,7 @@ Now let's start the journey of discovery!
 
     
 
-**2. Projects**
+**2. Έργα**
 
 The following projects are written in order of programming difficulty, so we recommend reading them in order.
 
