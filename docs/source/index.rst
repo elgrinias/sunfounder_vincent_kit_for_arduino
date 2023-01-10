@@ -8,11 +8,11 @@ SunFounder Vincent Kit για το Arduino
 
 * :download:`SunFounder Vincent Kit for Arduino <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`
 
-* Or check out the code at `Vincent Kit for Arduino - GitHub <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino>`_
+* Ή κάντε "check out" τον κώδικα στο `Vincent Kit for Arduino - GitHub <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino>`_
 
-If you want to learn another projects which we don’t have, please feel free to send Email and we will update to our online tutorials as soon as possible, any suggestions are welcomed.
+Εάν θέλετε να μάθετε άλλα έργα, τα οποία δεν διαθέτουμε, στείλτε παρακαλώ ελεύθερα Email και θα ενημερώσουμε τα online εγχειρίδιά μας όσο πιο σύντομα γίνεται, οι προτάσεις σας είναι καλοδεχούμενες.
 
-Here is the Email: cs@sunfounder.com.
+Το Email επικοινωνίας είναι: cs@sunfounder.com.
 
 
 .. toctree::
