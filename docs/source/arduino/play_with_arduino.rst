@@ -1,7 +1,7 @@
-Play with Arduino
+Παίζοντας με το Arduino
 ==========================
 
-**1. Basic**
+**1. Τα βασικά**
 
 .. toctree::
     :maxdepth: 1
@@ -18,7 +18,7 @@ Play with Arduino
     1.10_state_change_detection
     1.11_interval
 
-**2. Projects for Each Component**
+**2. Έργα για κάθε στοιχείο**
 
 .. toctree::
     :maxdepth: 1
@@ -58,7 +58,7 @@ Play with Arduino
     2.34_mpu6050_module
     2.35_rfid-rc522_module
 
-**3.Funny Projects**
+**3.Διασκεδαστικά Έργα**
 
 .. toctree::
     :maxdepth: 1
