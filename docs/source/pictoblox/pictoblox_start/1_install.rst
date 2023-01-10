@@ -1,8 +1,8 @@
 
-1.1 Install PictoBlox
+1.1 Εγκατάσταση PictoBlox
 ===========================
 
-Click this link：https://thestempedia.com/product/pictoblox/download-pictoblox/，choose the appropriate Operating System (Windows, macOS, Linux) and follow the steps to install.
+Κάντε "κλικ" σε αυτόν τον σύνδεσμο：https://thestempedia.com/product/pictoblox/download-pictoblox/，επιλέξτε το κατάλληλο Λειτουργικό Σύστημα (Windows, macOS, Linux) και ακολουθήστε τα βήματα για την εγκατάσταση.
 
 .. image:: img/download.png
 
