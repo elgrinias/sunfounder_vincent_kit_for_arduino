@@ -1,9 +1,9 @@
-1.3 Quick Guide on PictoBlox
+1.3 Γρήγορος Οδηγός για το PictoBlox
 ====================================
 
-Now let's learn how to use PictoBlox in two modes.
+Ας μάθουμε τώρα πώς χρησιμοποιούμε το PictoBlox με τους 2 τρόπους λειτουργίας.
 
-Also, there is an On-board LED connected to Pin 13 on the Arduino Uno/Mega2560, we will learn to make this LED blink in 2 different modes.
+Επίσης, υπάρχει ένα On-board LED συνδεδεμένο στο Pin 13 του Arduino Uno/Mega2560, θα μάθουμε να κάνουμε αυτό το LED να αναβοσβήνει σε καθέναν από τους 2 τρόπους λειτουργίας.
 
 .. image:: img/1_led.jpg
     :width: 500
