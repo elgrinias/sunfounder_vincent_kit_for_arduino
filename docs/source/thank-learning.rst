@@ -1,17 +1,16 @@
-Thank You
+Σας ευχαριστούμε
 ====================
 
-Thanks to the evaluators who evaluated our products, the veterans who provided suggestions for the tutorial, and the users who have been following and supporting us.
-Your valuable suggestions to us are our motivation to provide better products!
+Ευχαριστούμε τους αξιολογητές που αξιολόγησαν τα προϊόντα μας, τους βετεράνους που παρείχαν προτάσεις για το σεμινάριο και τους χρήστες που μας παρακολουθούν και μας υποστηρίζουν. Οι πολύτιμες προτάσεις σας είναι το κίνητρό μας για να παρέχουμε καλύτερα προϊόντα!
 
-**Particular Thanks**
+**Ιδιαίτερες Ευχαριστίες**
 
 * Len Davisson
 * Kalen Daniel
 * Juan Delacosta
   
     
-Now, could you spare a little time to fill out this questionnaire?
+Τώρα, θα μπορούσατε να αφιερώσετε λίγο από το χρόνο σας για να συμπληρώσετε αυτό το ερωτηματολόγιο;
 
 .. raw:: html
     
