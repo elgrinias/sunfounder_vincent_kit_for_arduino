@@ -29,15 +29,15 @@ Just drag and drop the Scratch coding blocks and make cool games, animations, in
 
 **2. Έργα**
 
-The following projects are written in order of programming difficulty, so we recommend reading them in order.
+Τα έργα που ακολουθούν παρατίθενται με βάση την προγραμματιστική τους δυσκολία, οπότε προτείνουμε να τα διαβάσετε με αυτή τη σειρά. 
 
-In each project, there are very detailed steps to teach you how to build the circuit and how to program it step by step to achieve the final result.
+Για κάθε έργο, περιλαμβάνονται πολύ αναλυτικά βήματα που σας καθοδηγούν στο πώς να κατασκευάσετε το κύκλωμα και στη συνέχεια να το προγραμματίσετεε βήμα-βήμα, ώστε να φτάσετε στο τελικό αποτέλεσμα.
 
-Of course, you can also open the script directly to run it, but you need to make sure you have downloaded the relevant material from `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_.
+Φυσικά, μπορείτε επίσης να ανοίξετε το σενάριο απ' ευθείας και να το τρέξετε, αλλά πρέπει να είστε σίγουροι ότι έχετε κατεβάσει το σχετικό υλικό από το  `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_.
 
-Once the download is complete, unzip it. Refer to :ref:`Stage Mode` to run individual scripts directly.
+Μόλις η λήψη ολοκληρωθεί, αποσυμπιέστε το zip αρχείο. Στη συνέχεια, δείτε τις οδηγίες στο :ref:`Stage Mode` για να τρέξετε κάποιο σενάριο απ' ευθείας.
 
-But the :ref:`humiture` is used the :ref:`Upload Mode`.
+Αλλά το :ref:`humiture` χρησιμοποιείται για το :ref:`Upload Mode`.
 
 
 .. toctree::
