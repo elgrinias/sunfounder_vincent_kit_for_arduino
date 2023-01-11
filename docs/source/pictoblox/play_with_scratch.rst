@@ -1,9 +1,9 @@
 Παίζοντας με το Scratch
 ========================
 
-Besides programming on the Arduino IDE with Uno/Mega2560 boards, we can also use them for graphical programming.
+Μπορούμε να χρησιμοποιήσουμε τις πλακέτες ελέγχου Uno/Mega2560 και για γραφικό προγραμματισμό, εκτός από τον προγραμματισμό τος στο Arduino IDE.
 
-Here we recommend programming with Scratch, but the official Scratch is currently only compatible with Raspberry Pi, so we have partnered with a company, STEMPedia, who has developed a Scratch 3 based graphical programming software for Arduino boards (Uno, Mega2560 and Nano) - `PictoBlox <https://thestempedia.com/product/pictoblox/>`_.
+Εδώ προτείνουμε τον προγραμματισμό σε Scratch, αλλά επειδή το επίσημο Scratch είναι προς το παρόν συμβατό μόνο με το Raspberry Pi, συνεργαστήκαμε με την εταιρεία STEMPedia, η οποία έχει αναπτύξει ένα γραφικό περιβάλλον προγραμματισμού για τις πλακέτες ελέγχου Arduino (Uno, Mega2560 and Nano) που βασίζεται στο Scratch 3 - `PictoBlox <https://thestempedia.com/product/pictoblox/>`_.
 
 .. image:: img/1_pictoblox.png
 
@@ -14,7 +14,7 @@ In addition, it has AI and machine learning, even if you do not have much progra
 Just drag and drop the Scratch coding blocks and make cool games, animations, interactive projects, and even control robots the way you want!
 
 
-Now let's start the journey of discovery!
+Ας ξεκινήσουμε το ταξίδι της ανακάλυψης!
 
 **1. Ξεκινώντας**
 
