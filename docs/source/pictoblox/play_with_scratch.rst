@@ -35,7 +35,7 @@ Just drag and drop the Scratch coding blocks and make cool games, animations, in
 
 Φυσικά, μπορείτε επίσης να ανοίξετε το σενάριο απ' ευθείας και να το τρέξετε, αλλά πρέπει να είστε σίγουροι ότι έχετε κατεβάσει το σχετικό υλικό από το  `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_.
 
-Μόλις η λήψη ολοκληρωθεί, αποσυμπιέστε το zip αρχείο. Στη συνέχεια, δείτε τις οδηγίες στο :ref:`Stage Mode` για να τρέξετε κάποιο σενάριο απ' ευθείας.
+Μόλις η λήψη ολοκληρωθεί, αποσυμπιέστε το zip αρχείο. Στη συνέχεια, δείτε τις οδηγίες στο :ref:`Stage Mode` για να τρέξετε κάποιο από τα σενάρια απ' ευθείας.
 
 Αλλά το :ref:`humiture` χρησιμοποιείται για το :ref:`Upload Mode`.
 
