@@ -4,31 +4,31 @@
 .. image:: img/pictoblox_interface.jpg
 
 
-**Sprites**
+**Μορφές**
 
-Το sprite είναι ένα αντικείμενο , ή χαρακτήρας, που πραγματοποιεί διάφορες ενέργειες σε ένα έργο. It understands and obeys the commands given to it. Each sprite has specific costumes and sounds that you can also customize.
+Μια μορφή είναι ένα αντικείμενο ή χαρακτήρας, που πραγματοποιεί διάφορες ενέργειες σε ένα έργο. Κατανοεί και υπακούει στις εντολές που του δίνονται. Κάθε μορφή έχει συγκεκριμένες ενδυμασίες και ήχους που μπορείτε επίσης να προσαρμόσετε.
 
-**Stage**
+**Σκηνή**
 
-The stage is the area where the sprite performs actions in backdrops according to your program. 
+Η σκηνή είναι η περιοχή όπου η μορφή εκτελεί ενέργειες, σε κάποιο σκηνικό, σύμφωνα με το πρόγραμμά σας. 
 
-**Backdrops**
+**Σκηνικά**
 
-Backdrops are used to decorate the stage. You can choose a backdrop from PictoBlox, draw one yourself or upload an image from your computer.
+Τα σκηνικά χρησιμοποιούνται για τη διακόσμηση της σκηνής. Μπορείτε να επιλέξετε ένα σκηνικό από το PictoBlox, να σχεδιάσετε ένα μόνοι σας ή να ανεβάσετε μια εικόνα από τον υπολογιστή σας.
 
-**Script Area**
+**Περιοχή Σεναρίων**
 
-A script is a program or a code in PictoBlox/Scratch lingo.  It is a set of "blocks" arranged in a specific order to perform a task or a series of tasks. You can write multiple scripts, all of which can run simultaneously. You can only write scripts in the script area in the center of the screen.
+Ένα σενάριο είναι ένα πρόγραμμα ή κώδικας σε γλώσσα PictoBlox/Scratch. Είναι ένα σύνολο «μπλοκ» που είναι διατεταγμένα με συγκεκριμένη σειρά για την εκτέλεση μιας εργασίας ή μιας σειράς εργασιών. Μπορείτε να γράψετε πολλά σενάρια, τα οποία μπορούν να εκτελούνται όλα ταυτόχρονα. Μπορείτε να γράψετε σενάρια μόνο στην περιοχή σεναρίων στο κέντρο της οθόνης.
 
-**Blocks**
+**Μπλοκ**
 
-Blocks are like pieces of a puzzle that are used to write programs by simply stacking them together in the script area. Using blocks to write code can make programming easier and reduce the probability of errors.
+Τα μπλοκ είναι σαν κομμάτια ενός παζλ που χρησιμοποιούνται για τη σύνταξη προγραμμάτων απλά στοιβάζοντάς τα μαζί στην περιοχή του σεναρίου. Η χρήση μπλοκ για τη σύνταξη κώδικα μπορεί να διευκολύνει τον προγραμματισμό και να μειώσει την πιθανότητα σφαλμάτων.
 
-**Block Palette**
+**Παλέτα Μπλοκ (Εντολών)**
 
-The block palettes are located in the left area and are named by their functions, such as motion, sound and control. Each palette has different blocks, for example, the blocks in the Motion palette will control the movement of the sprites, and the blocks in the Control palette will control the work of the script based on specific conditions.
+Οι παλέτες μπλοκ βρίσκονται στην αριστερή περιοχή του γραφικού περιβάλλοντος και παίρνουν το όνομά τους από τις λειτουργίες τους, όπως "Κίνηση", "Ήχος" και "Έλεγχος". Κάθε παλέτα έχει διαφορετικά μπλοκ, για παράδειγμα, τα μπλοκ στην παλέτα "Κίνηση" ελέγχουν την κίνηση των μορφών και τα μπλοκ στην παλέτα "Έλεγχος" ελέγχουν τις εργασίες του σεναρίου με βάση συγκεκριμένες συνθήκες.
 
-There are other kinds of block palettes that can be loaded from the **Add Extension** button located at the bottom left.
+Υπάρχουν και άλλου τύπου παλέτες μπλοκ που μπορούν να φορτωθούν από το κουμπί **Add Extension** που βρίσκεται κάτω αριστερά.
 
 **Modes**
 
@@ -37,4 +37,4 @@ Unlike Scratch, PictoBlox has two modes:
 * :ref:`Stage Mode`: In this mode, you can write scripts for the sprite and boards to interact with sprites in real-time. If you disconnect the board with Pictoblox, you cannot interact anymore.
 * :ref:`Upload Mode`: This mode allows you to write scripts and upload it to the board so that you can use even when it is not connected to your computer, for example, you need to upload a script for making moving robots.
 
-For more information, please refer to: https://thestempedia.com/tutorials/getting-started-pictoblox
+Για περισσότερες πληροφορίες, δείτε παρακαλώ το: https://thestempedia.com/tutorials/getting-started-pictoblox
