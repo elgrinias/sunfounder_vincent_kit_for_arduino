@@ -7,11 +7,11 @@
 
 .. image:: img/1_pictoblox.png
 
-It keeps the basic functions of Scratch 3, but also adds control boards, such as Arduino Uno, Mega, Nano, ESP32, Microbit and STEAMPedia homemade main boards, which can use external sensors, robots to control the sprites on the stage, with strong hardware interaction capabilities.
+Διατηρεί τις βασικές λειτουργικότητες του Scratch 3, αλλά προσθέτει δομές ελέγχου για πλακέτες, όπως οι Arduino Uno, Mega, Nano, ESP32, Microbit καθώς και κατασκευασμένες από τη STEAMPedia βασικές πλακέτες ελέγχου, που μπορεί να χρησιμοποιούν εξωτερικούς αισθητήρες ή/και ρομπότ για τον έλεγχο των sprites στη σκηνή, με ισχυρές δυνατότητες αλληλεπίδρασης με το υλισμικό.
 
-In addition, it has AI and machine learning, even if you do not have much programming foundation, you can learn and use these popular and high-tech.
+Επιπρόσθετα, περιλαμβάνει Τεχνητή Νοημοσύνη (TN) και Μηχανική Μάθηση (ΜΜ) και επομένως, ακόμα κι αν δεν έχετε βάσεις προγραμματισμού, σας δίνεται η δυνατότητα να μάθετε και να χρησιμοποιήσετε αυτές τις δημοφιλείς και υψηλής τεχνολογίας εφαρμογές.
 
-Just drag and drop the Scratch coding blocks and make cool games, animations, interactive projects, and even control robots the way you want!
+Απλώς σύρετε και εναποθέστε τα μπλοκ κώδικα του Scratch και δημιουργήστε διασκεδαστικά παιχνίδια, κινούμενα σχέδια, αλληλοδραστικά έργα, ή ακόμα ελέγξτε τα ρομπότ με όποιον τρόπο θέλετε!
 
 
 Ας ξεκινήσουμε το ταξίδι της ανακάλυψης!
