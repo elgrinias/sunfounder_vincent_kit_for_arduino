@@ -1,6 +1,6 @@
 .. _humiture:
 
-2.10 Read Temperature and Humidity
+2.10 Διαβάστε Θερμοκρασία και Υγρασία
 =================================================
 
 Previous projects have been using stage mode, but some functions are only available in upload mode, such as serial communication function. 
