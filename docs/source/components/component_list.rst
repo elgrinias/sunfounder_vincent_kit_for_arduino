@@ -1,15 +1,14 @@
-Components List and Introduction
+Λίστα Εξοπλισμού και Εισαγωγή
 ====================================
 
-
-Αφού ανοίξετε το πακέτο, please check whether the quantity of components is compliance with product description and whether all components are in good condition.
+Αφού ανοίξετε το πακέτο, παρακαλώ ελέγξτε  εάν η ποσότητα των εξαρτημάτων αντιστοιχεί στην περιγραφή των προϊόντων και εάν όλος ο εξοπλισμός βρίσκεται σε καλή κατάσταση.
 
 * :download:`Vincent Kit Components List <https://github.com/sunfounder/sf-pdf/raw/master/components_list/a0000242-vincent-kit.pdf>`
 
 
-Below is the introduction to each component, which contains the operating principle of the component and the corresponding projects.
+Δίνεται παρακάτω η βασική περιγραφή για κάθε εξάρτημα, που περιλαμβάνει τις αρχές λειτουργίας του εξαρτήματος και τα ααντίστοιχα έργα στα οποία χρησιμοποιείται.
 
-**Control Board**
+**Πλακέτα Ελέγχου**
 
 .. toctree::
     :maxdepth: 1
@@ -18,7 +17,7 @@ Below is the introduction to each component, which contains the operating princi
     component_mega_proto_shield
 
 
-**Basic**
+**Βασικ**
 
 .. toctree::
     :maxdepth: 1
@@ -40,7 +39,7 @@ Below is the introduction to each component, which contains the operating princi
 
 
 
-**Display**
+**ΟΘόνη**
 
 .. toctree::
     :maxdepth: 1
@@ -54,14 +53,14 @@ Below is the introduction to each component, which contains the operating princi
     component_i2c_lcd
 
 
-**Sound**
+**Ήχος**
 
 .. toctree::
     :maxdepth: 1
 
     component_buzzer
 
-**Driver**
+**Οδηγός**
 
 .. toctree::
     :maxdepth: 1
@@ -73,7 +72,7 @@ Below is the introduction to each component, which contains the operating princi
     component_relay_module
     
 
-**Controller**
+**Ελεγκτής**
 
 .. toctree::
     :maxdepth: 1
@@ -89,7 +88,7 @@ Below is the introduction to each component, which contains the operating princi
 
 
 
-**Sensor**
+**Αισθητ**
 
 .. toctree::
     :maxdepth: 1
