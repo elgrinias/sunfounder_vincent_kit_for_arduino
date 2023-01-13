@@ -17,7 +17,7 @@
     component_mega_proto_shield
 
 
-**Βασικ**
+**Βασικά**
 
 .. toctree::
     :maxdepth: 1
@@ -39,7 +39,7 @@
 
 
 
-**ΟΘόνη**
+**Προβολή**
 
 .. toctree::
     :maxdepth: 1
@@ -88,7 +88,7 @@
 
 
 
-**Αισθητ**
+**Αισθητήρας**
 
 .. toctree::
     :maxdepth: 1
