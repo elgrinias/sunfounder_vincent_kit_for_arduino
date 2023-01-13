@@ -2,7 +2,7 @@ Components List and Introduction
 ====================================
 
 
-After opening the package, please check whether the quantity of components is compliance with product description and whether all components are in good condition.
+Αφού ανοίξετε το πακέτο, please check whether the quantity of components is compliance with product description and whether all components are in good condition.
 
 * :download:`Vincent Kit Components List <https://github.com/sunfounder/sf-pdf/raw/master/components_list/a0000242-vincent-kit.pdf>`
 
