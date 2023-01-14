@@ -29,7 +29,7 @@
     component_diode
     component_wires
 
-**Chip**
+**Μικροκ**
 
 .. toctree::
     :maxdepth: 1
@@ -39,7 +39,7 @@
 
 
 
-**Προβολή**
+**Οθόνη**
 
 .. toctree::
     :maxdepth: 1
