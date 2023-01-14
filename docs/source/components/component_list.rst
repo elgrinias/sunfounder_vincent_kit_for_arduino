@@ -29,7 +29,7 @@
     component_diode
     component_wires
 
-**Μικροκ**
+**Μικροκύκλωμα**
 
 .. toctree::
     :maxdepth: 1
