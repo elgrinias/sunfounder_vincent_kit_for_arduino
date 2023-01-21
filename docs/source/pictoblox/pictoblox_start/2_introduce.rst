@@ -30,11 +30,11 @@
 
 Υπάρχουν και άλλου τύπου παλέτες μπλοκ που μπορούν να φορτωθούν από το κουμπί **Add Extension** που βρίσκεται κάτω αριστερά.
 
-**Modes**
+**Λειτουργίες**
 
-Unlike Scratch, PictoBlox has two modes:
+Σε αντίθεση με το Scratch, το PictoBlox έχει δύο λειτουργίες (modes):
 
-* :ref:`Stage Mode`: In this mode, you can write scripts for the sprite and boards to interact with sprites in real-time. If you disconnect the board with Pictoblox, you cannot interact anymore.
-* :ref:`Upload Mode`: This mode allows you to write scripts and upload it to the board so that you can use even when it is not connected to your computer, for example, you need to upload a script for making moving robots.
+* :ref:`Stage Mode`: Σε αυτήν τη λειτουργία, μπορείτε να γράψετε σενάρια για τις μορφές και την αλληλεπίδραση της πλακέτας ελέγχου με τις μορφές σε πραγματικό χρόνο. Εάν αποσυνδέσετε την πλακέτα από το Pictoblox, δεν μπορείτε πλέον να αλληλεπιδράσετε.
+* :ref:`Upload Mode`: Αυτή η λειτουργία σάς επιτρέπει να γράψετε σενάρια και να τα ανεβάσετε στην πλακέτα ελέγχου, ώστε να μπορείτε να τη χρησιμοποιήσετε ακόμα και όταν δεν είναι συνδεδεμένη στον υπολογιστή σας, για παράδειγμα, να ανεβάσετε ένα σενάριο για την κατασκευή κινούμενων ρομπότ.
 
 Για περισσότερες πληροφορίες, δείτε παρακαλώ το: https://thestempedia.com/tutorials/getting-started-pictoblox
