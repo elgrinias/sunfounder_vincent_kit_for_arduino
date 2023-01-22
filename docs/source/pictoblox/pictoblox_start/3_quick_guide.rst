@@ -3,49 +3,51 @@
 
 Ας μάθουμε τώρα πώς χρησιμοποιούμε το PictoBlox με τους 2 τρόπους λειτουργίας.
 
-Επίσης, υπάρχει ένα On-board LED συνδεδεμένο στο Pin 13 του Arduino Uno/Mega2560, θα μάθουμε να κάνουμε αυτό το LED να αναβοσβήνει σε καθέναν από τους 2 τρόπους λειτουργίας.
+Επίσης, υπάρχει μια ενσωματωμένη λυχνία LED συνδεδεμένη με τον ακροδέκτη 13 στο Arduino Uno/Mega2560. Θα μάθουμε να κάνουμε αυτό το LED να αναβοσβήνει σε καθέναν από τους 2 τρόπους λειτουργίας.
 
 .. image:: img/1_led.jpg
     :width: 500
     :align: center
 
 
-Stage Mode
+Λειτουργία Stage
 ---------------
 
-**1. Connect to Arduino Board**
+**1. Σύνδεση στην πλακέτα Arduino**
 
-Connect your Arduino board to the computer with a USB cable, usually the computer will automatically recognize your board and finally assign a COM port.
+Συνδέστε την πλακέτα Arduino στον υπολογιστή με ένα καλώδιο USB. Συνήθως ο υπολογιστής αναγνωρίζει αυτόματα την πλακέτα σας και τελικά θα της εκχωρήσει μια θύρα COM.
 
-Open PictoBlox, the Python programming interface will open by default. And we need to switch to the Blocks interface.
+Ανοίξτε το PictoBlox. Η διεπαφή προγραμματισμού Python θα ανοίξει από προεπιλογή και πρέπει να μεταβούμε στη διεπαφή Blocks.
 
 .. image:: img/0_choose_blocks.png
 
-Then you will see the top right corner for mode switching. The default is Stage mode, where Tobi is standing on the stage.
+Στη συνέχεια θα δείτε την επάνω δεξιά γωνία για εναλλαγή λειτουργίας. Η προεπιλογή είναι η λειτουργία Stage, όπου ο Tobi στέκεται στη σκηνή.
 
 .. image:: img/1_stage_upload.png
 
-Click **Board** in the upper right navigation bar to select the board.
+Κάντε κλικ στο **Board** στην επάνω δεξιά γραμμή πλοήγησης για να επιλέξετε πλακέτα.
 
 .. image:: img/1_board.png
 
-For example, choose **Arduino Mega**.
+Για παράδειγμα, επιλέξτε **Arduino Mega**.
 
 .. image:: img/1_choose_mega.png
 
-A connection window will then pop up for you to select the port to connect to, and return to the home page when the connection is complete. If you break the connection during use, you can also click **Connect** to reconnect.
+Στη συνέχεια θα εμφανιστεί ένα παράθυρο σύνδεσης για να επιλέξετε τη θύρα στην οποία θα συνδεθείτε και να επιστρέψετε στην αρχική σελίδα όταν ολοκληρωθεί η σύνδεση. Εάν διακόψετε τη σύνδεση κατά τη χρήση, μπορείτε επίσης να κάνετε κλικ στο **Connect** για να επανασυνδεθείτε.
 
 .. image:: img/1_connect.png
 
-At the same time, Arduino Mega related palettes, such as Arduino Mega, Actuators, etc., will appear in the **Block Palette**.
+Ταυτόχρονα, οι παλέτες που σχετίζονται με το Arduino Mega, όπως το Arduino Mega, οι Actuators, κ.λ.π., θα εμφανιστούν στην **Παλέτα μπλοκ**.
 
 .. image:: img/1_arduino_mega.png
 
-**2. Upload Firmware**
+**2. Ανεβάστε το υλικολογισμικό (Firmware)**
 
 Since we’re going to work in the Stage mode, we must upload the firmware to the board. It will ensure real-time communication between the board and the computer. Uploading the firmware it is a one-time process. To do so, click on the Upload Firmware button.
 
-After waiting for a while, the upload success message will appear.
+Εφόσον πρόκειται να εργαστούμε στη λειτουργία Stage, πρέπει να ανεβάσουμε το υλικολογισμικό στον πίνακα. Θα εξασφαλίσει επικοινωνία σε πραγματικό χρόνο μεταξύ της πλακέτας και του υπολογιστή. Η μεταφόρτωση του υλικολογισμικού είναι μια διαδικασία εφάπαξ. Για να το κάνετε αυτό, κάντε κλικ στο κουμπί Upload Firmware.
+
+Μετά από λίγο αναμονή, θα εμφανιστεί το μήνυμα επιτυχίας της μεταφόρτωσης.
 
 .. note::
 
