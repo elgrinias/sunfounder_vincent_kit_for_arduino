@@ -43,47 +43,45 @@
 
 **2. Ανεβάστε το υλικολογισμικό (Firmware)**
 
-Since we’re going to work in the Stage mode, we must upload the firmware to the board. It will ensure real-time communication between the board and the computer. Uploading the firmware it is a one-time process. To do so, click on the Upload Firmware button.
-
 Εφόσον πρόκειται να εργαστούμε στη λειτουργία Stage, πρέπει να ανεβάσουμε το υλικολογισμικό στον πίνακα. Θα εξασφαλίσει επικοινωνία σε πραγματικό χρόνο μεταξύ της πλακέτας και του υπολογιστή. Η μεταφόρτωση του υλικολογισμικού είναι μια διαδικασία εφάπαξ. Για να το κάνετε αυτό, κάντε κλικ στο κουμπί Upload Firmware.
 
-Μετά από λίγο αναμονή, θα εμφανιστεί το μήνυμα επιτυχίας της μεταφόρτωσης.
+Μετά από λίγη αναμονή, θα εμφανιστεί το μήνυμα επιτυχίας της μεταφόρτωσης.
 
 .. note::
 
-    If you are using this Arduino board in PictoBlox for the first time, or if this Arduino was previously uploaded with the Arduino IDE. Then you need to tap **Upload Firmware** before you can use it.
+    Εάν χρησιμοποιείτε αυτή την πλακέτα Arduino στο PictoBlox για πρώτη φορά ή εάν αυτό το Arduino είχε μεταφορτωθεί προηγουμένως με το Arduino IDE: τότε, θα πρέπει να πατήσετε Upload Firmware για να μπορέσετε να το χρησιμοποιήσετε.
 
 
 .. image:: img/1_firmware.png
 
 
-**3. Programming**
+**3. Προγραμματισμός**
 
-* Open and run the script directly
+* Ανοίξτε και εκτελέστε απευθείας το σενάριο
 
-Of course, you can open the scripts directly to run them, but please download them from `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_ first.
+Φυσικά, μπορείτε να ανοίξετε τα σενάρια απευθείας για να τα εκτελέσετε, αλλά παρακαλούμε να τα κατεβάσετε πρώτα από το `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_ first.
 
-You can click on **File** in the top right corner and then choose **Open**.
+Μπορείτε να κάνετε κλικ στο **File** στην επάνω δεξιά γωνία και στη συνέχεια να επιλέξετε **Open**.
 
 .. image:: img/0_open.png
 
-Choose **Open from Computer**.
+Επιλέξτε **Open from Computer**.
 
 .. image:: img/0_dic.png
 
-Then go to the path of ``sunfounder_vincent_kit_for_arduino\scratch\code``, and open **1. Stage Mode.sb3**. Please ensure that you have downloaded the required code from `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_.
+Στη συνέχεια, μεταβείτε στη διαδρομή του ``sunfounder_vincent_kit_for_arduino\scratch\code``, και ανοίξτε το **1. Stage Mode.sb3**. Βεβαιωθείτε ότι έχετε κατεβάσει τον απαιτούμενο κώδικα από το `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_.
 
 .. image:: img/0_stage.png
 
-Click directly on the script to run it, some projects are click on the green flag or click on the sprite.
+Κάντε κλικ απευθείας στο σενάριο για να το εκτελέσετε. ΣΕ ορισμένα έργα πρέπει να κάνετε κλικ στην πράσινη σημαία ή να κάνετε κλικ στη μορφή.
 
 .. image:: img/1_more.png
 
-* Program step by step
+* Το πρόγραμμα βήμα-βήμα
 
-You can also write the script step by step by following these steps.
+Μπορείτε επίσης να γράψετε το σενάριο βήμα προς βήμα ακολουθώντας τα παρακάτω βήματα.
 
-Click on the **Arduino Mega** palette.
+Κάντε κλικ στην παλέτα **Arduino Mega**.
 
 .. image:: img/1_arduino_mega.png
 
@@ -91,7 +89,11 @@ The LED on the Arduino board is controlled by the digital pin 13 (only 2 states,
 
 Since the default state of the LED is lit, now set pin 13 to LOW and click on this block and you will see the LED go off.
 
-* [set digital pin out as]: Set the digital pins (2~13) to (HIGH/LOW) level.
+Η λυχνία LED στην πλακέτα Arduino ελέγχεται από την ψηφιακή ακίδα 13 (μόνο 2 καταστάσεις, ΥΨΗΛΗ (HIGH) ή ΧΑΜΗΛΗ (LOW)), επομένως σύρετε το μπλοκ [set digital pin output as] στην περιοχή του σεναρίου.
+
+Εφόσον η προεπιλεγμένη κατάσταση της λυχνίας LED είναι "αναμμένη", ρυθμίστε τώρα τον ακροδέκτη 13 σε LOW και στη συνέχεια κάντε κλικ σε αυτό το μπλοκ και θα δείτε το LED να σβήνει.
+
+* [set digital pin output as]: Ρυθμίστε τους ψηφιακούς ακροδέκτες (2~13) σε επίπεδο (HIGH/LOW).
 
 .. image:: img/1_digital.png
 
@@ -102,7 +104,7 @@ In order to see the effect of continuous blinking LED, you need to use the [Wait
 
 .. image:: img/1_more.png
 
-Upload Mode
+Λειτουργία Upload 
 ---------------
 
 **1. Connect to Arduino Board**
