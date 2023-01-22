@@ -59,7 +59,7 @@
 
 * Ανοίξτε και εκτελέστε απευθείας το σενάριο
 
-Φυσικά, μπορείτε να ανοίξετε τα σενάρια απευθείας για να τα εκτελέσετε, αλλά παρακαλούμε να τα κατεβάσετε πρώτα από το `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_ first.
+Φυσικά, μπορείτε να ανοίξετε τα σενάρια απευθείας για να τα εκτελέσετε, αλλά παρακαλούμε να τα κατεβάσετε πρώτα από το `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_.
 
 Μπορείτε να κάνετε κλικ στο **File** στην επάνω δεξιά γωνία και στη συνέχεια να επιλέξετε **Open**.
 
