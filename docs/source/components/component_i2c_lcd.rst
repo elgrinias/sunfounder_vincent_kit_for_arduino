@@ -6,42 +6,41 @@ I2C LCD1602
 .. image:: img/i2c_lcd1602.png
     :width: 800
 
-* **GND**: Ground
-* **VCC**: Voltage supply, 5V.
-* **SDA**: Serial data line. Connect to VCC through a pullup resistor.
-* **SCL**: Serial clock line. Connect to VCC through a pullup resistor.
+* **GND**: Γείωση
+* **VCC**: Παροχή τάσης, 5V.
+* **SDA**: Σειριακή γραμμή δεδομένων. Συνδέστε στο VCC μέσω μιας ανορθωτικής αντίστασης.
+* **SCL**: Σειριακή γραμμη ρολογιού . Συνδέστε στο VCC μέσω μιας ανορθωτικής αντίστασης.
 
-As we all know, though LCD and some other displays greatly enrich the man-machine interaction, they share a common weakness. When they are connected to a controller, multiple IOs will be occupied of the controller which has no so many outer ports. Also it restricts other functions of the controller. 
+Όπως όλοι γνωρίζουμε, αν και οι LCD και ορισμένες άλλες οθόνες εμπλουτίζουν σημαντικά την αλληλεπίδραση ανθρώπου-μηχανής, μοιράζονται μια κοινή αδυναμία. Όταν συνδέονται με κάποιον ελεγκτή, καταλαμβάνουν πολλές εισόδους/εξόδους του και μπορεί ο ελεγκτής να μην διαθέτει τόσες πολλές εξωτερικές θύρες. Επίσης, περιορίζει άλλες λειτουργίες του ελεγκτή.
 
-Therefore, LCD1602 with an I2C module is developed to solve the problem. The I2C module has a built-in PCF8574 I2C chip that converts I2C serial data to parallel data for the LCD display.        
+Η οθόνη LCD1602 με τη μονάδα I2C που διαθέτει, έχει αναπτυχθεί για να λύσει αυτό το πρόβλημα. Η μονάδα I2C διαθέτει ένα ενσωματωμένο τσιπ PCF8574 I2C που μετατρέπει σειριακά δεδομένα I2C σε παράλληλα δεδομένα για την οθόνη LCD.        
 
-* `PCF8574 Datasheet <https://www.ti.com/lit/ds/symlink/pcf8574.pdf?ts=1627006546204&ref_url=https%253A%252F%252Fwww.google.com%252F>`_
+* `PCF8574 Φύλλο δεδομένων <https://www.ti.com/lit/ds/symlink/pcf8574.pdf?ts=1627006546204&ref_url=https%253A%252F%252Fwww.google.com%252F>`_
 
-**I2C Address**
+**Διεύθυνση I2C**
 
-The default address is basically 0x27, in a few cases it may be 0x3F.
+Η προεπιλεγμένη διεύθυνση είναι συνήθως η 0x27, αν και σε μερικές περιπτώσεις μπορεί να είναι η 0x3F.
 
-Taking the default address of 0x27 as an example, the device address can be modified by shorting the A0/A1/A2 pads; in the default state, A0/A1/A2 is 1, and if the pad is shorted, A0/A1/A2 is 0.
+Παίρνοντας ως παράδειγμα την προεπιλεγμένη διεύθυνση 0x27, η διεύθυνση της συσκευής μπορεί να τροποποιηθεί βραχυκυκλώνοντας τα pads A0/A1/A2; στην προεπιλεγμένη κατάσταση, το A0/A1/A2 είναι 1, και εάν το pad είναι βραχυκυκλωμένο, το A0/A1/A2 είναι 0.
 
 .. image:: img/i2c_address.jpg
     :width: 600
 
-**Backlight/Contrast**
+**Οπίσθιος φωτισμός/Αντίθεση**
 
-Backlight can be enabled by jumper cap, unplugg the jumper cap to disable the backlight. The blue potentiometer on the back 
-
+Ο οπίσθιος φωτισμός μπορεί να ενεργοποιηθεί με το κάλυμμα βραχυκυκλωτήρα, αποσυνδέστε το κάλυμμα βραχυκυκλωτήρα για να απενεργοποιήσετε τον οπίσθιο φωτισμό. Το μπλε ποτενσιόμετρο στο πίσω μέρος
 
 .. image:: img/back_lcd1602.jpg
 
-* **Shorting Cap**: Backlight can be enabled by this cap，unplugg this cap to disable the backlight.
-* **Potentiometer**: It is used to adjust the contrast (the clarity of the displayed text), which is increased in the clockwise direction and decreased in the counterclockwise direction.
+* **Shorting Cap**: Ο οπίσθιος φωτισμός μπορεί να ενεργοποιηθεί από αυτό το κάλυμμα, αφαιρέστε αυτό το κάλυμμα για να απενεργοποιήσετε τον οπίσθιο φωτισμό.
+* **Ποτενσιόμετρο**: Χρησιμοποιείται για τη ρύθμιση της αντίθεσης (της ευκρίνειας του εμφανιζόμενου κειμένου), η οποία αυξάνεται κατά τη φορά των δεικτών του ρολογιού και μειώνεται κατά τη φορά των δεικτών του ρολογιού.
 
 
 
-**Example**
+**Παραδείγματα**
 
-* :ref:`ar_lcd1602` (Arduino Project)
-* :ref:`ar_access_system` (Arduino Project)
-* :ref:`ar_guess_number` (Arduino Project)
-* :ref:`ar_overheat_monitor` (Arduino Project)
-* :ref:`lcd1602` (Scratch Project)
+* :ref:`ar_lcd1602` (Έργο Arduino)
+* :ref:`ar_access_system` (Έργο Arduino)
+* :ref:`ar_guess_number` (Έργο Arduino)
+* :ref:`ar_overheat_monitor` (Έργο Arduino)
+* :ref:`lcd1602` (Έργο Scratch)
