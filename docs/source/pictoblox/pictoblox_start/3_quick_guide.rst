@@ -93,92 +93,92 @@
 
 .. image:: img/1_digital.png
 
-In order to see the effect of continuous blinking LED, you need to use the [Wait 1 seconds] and [forever] blocks in the **Control** palette. Click on these blocks after writing, there is a yellow halo means it is running.
+Για να δείτε τη λυχνία LED να αναβοσβήνει συνεχόμενα, πρέπει να χρησιμοποιήσετε τα μπλοκ [Wait 1 seconds] και [forever] στην παλέτα Control. Αν κάνετε κλικ σε αυτά τα μπλοκ αφού γράψετε, θα εμφανιστεί ένα φωτεινό κίτρινο περίγραμμα που σημαίνει ότι το μπλοκ εκτελείται.
 
-* [Wait 1 seconds]: from the **Control** palette, used to set the time interval between 2 blocks.
-* [forever]: from the **Control** palette, allows the script to keep running unless manually paused.
+* [Wait 1 seconds]: από την παλέτα **Control**, χρησιμοποιείται για τον ορισμό του χρονικού διαστήματος παύσης μεταξύ 2 μπλοκ εντολ.
+* [forever]: από την παλέτα **Control**, επιτρέπει στο σενάριο να συνεχίσει να εκτελείται εκτός και αν γίνει, μή αυτόματη, παύση.
 
 .. image:: img/1_more.png
 
-Λειτουργία Upload 
+Λειτουργία Upload (Μεταφόρτωσης)
 ---------------
 
-**1. Connect to Arduino Board**
+**1. Συνδεθείτε στην πλακέτα Arduino**
 
-Connect your Arduino board to the computer with a USB cable, usually the computer will automatically recognize your board and finally assign a COM port.
+Συνδέστε την πλακέτα Arduino στον υπολογιστή με ένα καλώδιο USB, συνήθως ο υπολογιστής θα αναγνωρίσει αυτόματα την πλακέτα σας και τελικά θα της εκχωρήσει μια θύρα COM.
 
-Open PictoBlox and click **Board** in the top right navigation bar to select the board.
+Ανοίξτε το PictoBlox και κάντε κλικ στο **Board** στην επάνω δεξιά γραμμή πλοήγησης για να επιλέξετε την πλακέτα σας.
 
 .. image:: img/1_board.png
 
-For example, choose **Arduino Mega**.
+Για παράδειγμα, επιλέξτε **Arduino Mega**.
 
 .. image:: img/1_choose_mega.png
 
-A connection window will then pop up for you to select the port to connect to, and return to the home page when the connection is complete. If you break the connection during use, you can also click **Connect** to reconnect.
+Στη συνέχεια θα εμφανιστεί ένα παράθυρο σύνδεσης για να επιλέξετε τη θύρα στην οποία θα συνδεθείτε και να επιστρέψετε στην αρχική σελίδα όταν ολοκληρωθεί η σύνδεση. Εάν διακόψετε τη σύνδεση κατά τη χρήση της, μπορείτε να κάνετε ξανά κλικ στο **Connect** για να επανασυνδεθείτε.
 
 .. image:: img/1_connect.png
 
-At the same time, Arduino Mega related palettes, such as Arduino Mega, Actuators, etc., will appear in the **Block Palette**.
+Ταυτόχρονα, οι παλέτες που σχετίζονται με το Arduino Mega, όπως το Arduino Mega, οι Actuators, κ.λ.π., θα εμφανιστούν στην Παλέτα **Blocks**.
 
 .. image:: img/1_upload_mega.png
 
-After selecting Upload mode, the stage will switch to the original Arduino code area.
+Αφού επιλέξετε τη λειτουργία Upload, το σκηνικό εναλλάσεται με την αρχική περιοχή κώδικα Arduino.
 
 .. image:: img/1_upload.png
 
-**2. Programming**
+**2. Προγραμματισμός**
 
-* Open and run the script directly
+* Ανοίξτε και εκτελέστε απευθείας το σενάριο
 
-You can click on **File** in the top right corner.
+Μπορείτε να κάνετε κλικ στο **File** στην επάνω δεξιά γωνία.
 
 .. image:: img/0_open.png
 
-Choose **Open from Computer**.
+Επιλέξτε **Open from Computer**.
 
 .. image:: img/0_dic.png
 
-Then go to the path of ``sunfounder_vincent_kit_for_arduino\scratch\code``, and open **1. Upload Mode.sb3**. Please ensure that you have downloaded the required code from `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_.
+Στη συνέχεια, μεταβείτε στη διαδρομή ``sunfounder_vincent_kit_for_arduino\scratch\code``, και ανοίξτε το **1. Upload Mode.sb3**. Βεβαιωθείτε ότι έχετε κατεβάσει τον απαιτούμενο κώδικα από το `github <https://github.com/sunfounder/sunfounder_vincent_kit_for_arduino/archive/refs/heads/master.zip>`_.
 
 .. image:: img/0_upload.png
 
-Finally, click the **Upload Code** button.
+Τέλος, κάντε κλικ στο κουμπί **Upload Code**.
 
 .. image:: img/1_upload_code.png
 
 
-* Program step by step
+* Το πρόγραμμα βήμα-βήμα
 
-You can also write the script step by step by following these steps.
+Μπορείτε επίσης να γράψετε το σενάριο βήμα προς βήμα ακολουθώντας αυτά τα βήματα.
 
-Click on the **Arduino Mega** palette.
+Κάντε κλικ στην παλέτα **Arduino Mega**.
 
 .. image:: img/1_upload_mega.png
 
-Drag [when Arduino Mega starts up] to the script area, which is required for every script.
+Σύρετε το [when Arduino Mega starts up], το οποίο απαιτείται για κάθε σενάριο, στην περιοχή του σεναρίου.
 
 .. image:: img/1_mega_starts.png
 
-The LED on the Arduino board is controlled by the digital pin13 (only 2 states HIGH or LOW), so drag the [set digital pin out as]  block to the script area.
+Η λυχνία LED στην πλακέτα Arduino ελέγχεται από την ψηφιακή ακίδα 13 (μόνο 2 καταστάσεις, ΥΨΗΛΗ (HIGH) ή ΧΑΜΗΛΗ (LOW)), επομένως σύρετε το μπλοκ [set digital pin output as] στην περιοχή του σεναρίου.
 
-Since the default state of the LED is lit, now set pin 13 to LOW and click on this block and you will see the LED go off.
+Εφόσον η προεπιλεγμένη κατάσταση της λυχνίας LED είναι "αναμμένη", ρυθμίστε τώρα τον ακροδέκτη 13 σε LOW και στη συνέχεια κάντε κλικ σε αυτό το μπλοκ και θα δείτε το LED να σβήνει.
 
-* [set digital pin out as]: Set the digital pin (2~13) to (HIGH/LOW) level.
+* [set digital pin out as]: Ρυθμίστε τους ψηφιακούς ακροδέκτες (2~13) σε επίπεδο (HIGH/LOW).
 
 .. image:: img/1_upload_digital.png
 
-At this point you will see the Arduino code appear on the right side, if you want to edit this code, then you can turn Edit mode on.
+Σε αυτό το σημείο θα δείτε τον κωδικό Arduino να εμφανίζεται στη δεξιά πλευρά, εάν θέλετε να επεξεργαστείτε αυτόν τον κωδικό, τότε μπορείτε να ενεργοποιήσετε τη λειτουργία επεξεργασίας.
 
 .. image:: img/1_upload1.png
 
-In order to see the effect of continuous blinking LED, you need to use the [Wait 1 seconds] and [forever] blocks in the **Control** palette. Click on these blocks after writing, there is a yellow halo means it is running.
+Για να δείτε τη λυχνία LED να αναβοσβήνει συνεχόμενα, πρέπει να χρησιμοποιήσετε τα μπλοκ [Wait 1 seconds] και [forever] στην παλέτα Control. Αν κάνετε κλικ σε αυτά τα μπλοκ αφού γράψετε, θα εμφανιστεί ένα φωτεινό κίτρινο περίγραμμα που σημαίνει ότι το μπλοκ εκτελείται.
 
-* [Wait 1 seconds]: from the **Control** palette, used to set the time interval between 2 blocks.
-* [forever]: from the **Control** palette, allows the script to keep running unless the power is off.
+* [Wait 1 seconds]: από την παλέτα **Control**, χρησιμοποιείται για τον ορισμό του χρονικού διαστήματος παύσης μεταξύ 2 μπλοκ εντολ.
+* [forever]: από την παλέτα **Control**, επιτρέπει στο σενάριο να συνεχίσει να εκτελείται εκτός και αν διακοπεί η παροχή ρεύματος.
 
 .. image:: img/1_upload_more.png
 
-Finally, click the **Upload Code** button.
+Τέλος, κάντε κλικ στο κουμπί **Upload Code**.
 
 .. image:: img/1_upload_code.png
