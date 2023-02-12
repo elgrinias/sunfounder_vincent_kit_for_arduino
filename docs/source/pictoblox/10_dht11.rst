@@ -1,71 +1,70 @@
 .. _humiture:
 
-2.10 Διαβάστε Θερμοκρασία και Υγρασία
+2.10 Διαβάστε τη Θερμοκρασία και την Υγρασία
 =================================================
 
-Previous projects have been using stage mode, but some functions are only available in upload mode, such as serial communication function. 
-In this project, we will print the temperature and humidity of the DHT11 using the Serial Monitor in :ref:`Upload Mode`.
+Τα προηγούμενα έργα χρησιμοποιούσαν τη λειτουργία Stage, αλλά ορισμένες δυνατότητες είναι διαθέσιμες μόνο σε λειτουργία Upload, όπως αυτή της σειριακής επικοινωνίας. Σε αυτό το έργο, θα εκτυπώσουμε τη θερμοκρασία και την υγρασία που καταγράφει ο DHT11 χρησιμοποιώντας τη σειριακή οθόνη σε :ref:`Upload Mode`.
 
 .. image:: img/11_serial.png
 
-You Will Learn
+Θα μάθετε
 ---------------------
 
-- Get the temperature and humidity from the DHT11 module
-- Serial Monitor for :ref:`Upload Mode`
-- Add extension
+- Να λαμβάνετε τη θερμοκρασία και την υγρασία από τη μονάδα DHT11
+- Τη σειριακή οθόνη για το :ref:`Upload Mode`
+- Την προσθήκη επεκτάσεων
 
-Build the Circuit
+Κατασκευάστε το κύκλωμα
 -----------------------
 
-The digital temperature and humidity sensor DHT11 is a composite sensor that contains a calibrated digital signal output of temperature and humidity.
+Ο ψηφιακός αισθητήρας θερμοκρασίας και υγρασίας DHT11 είναι ένας σύνθετος αισθητήρας που διαθέτει μια βαθμονομημένη έξοδο ψηφιακού σήματος θερμοκρασίας και υγρασίας.
 
-Now build the circuit according to the following diagram.
+Κατασκευάστε το κύκλωμα σύμφωνα με το παρακάτω διάγραμμα.
 
 .. image:: img/circuit/dht11_circuit.png
 
 * :ref:`cpn_breadboard`
 * :ref:`cpn_humiture` 
 
-Programming
+Προγραμματισμός
 ------------------
 
-**1. Adding Extensions**
+**1. Προσθήκη επεκτάσεων**
 
-Switch to **Upload** mode, click the **Add Extension** button in the bottom left corner, then select **Communication** to add it, and it will appear at the end of the palette area.
+Μεταβείτε στη λειτουργία **Upload**, κάντε κλικ στο κουμπί **Add Extension** στην κάτω αριστερή γωνία και, στη συνέχεια, επιλέξτε **Communication** για να προσθέσετε την επέκταση και θα τη δείτε να εμφανίζεται στο τέλος της περιοχής της παλέτας.
 
 .. image:: img/11_addcom.png
 
-**2. Initializing the Arduino Mega and Serial Monitor**
+**2. Αρχικοποίηση του Arduino Mega και της Σειριακής Οθόνης**
 
-In **Upload** mode, start Arduino Mega and then set the serial port baud rate.
+Σε λειτουργία **Upload**, εκινήστε το Arduino Mega και, στη συνέχεια, ορίστε τον ρυθμό baud της σειριακής θύρας.
 
-* [when Arduino Starts up]: In **Upload** mode, start Arduino Mega.
-* [set serial baud rate to]: From the **Communications** palette, used to set the baud rate of serial port 0, default is 115200. If you are using Mega2560, then you can choose to set baud rate in serial port 0~3.
+* [when Arduino Starts up]: Σε λειτουργία **Upload**, εκκινήστε το Arduino Mega.
+* [set serial baud rate to]: Από την παλέτα **Communications**, χρησιμοποιείται για τον ορισμό του ρυθμού baud της σειριακής θύρας 0, η προεπιλογή είναι 115200. Εάν χρησιμοποιείτε το Mega2560, τότε μπορείτε να επιλέξετε να ορίσετε το ρυθμό baud στις σειριακές θύρες 0~3.
 
 .. image:: img/11_init.png
 
-**3. Read temperature and humidity**
+**3. Διαβάστε τη θερμοκρασία και την υγρασία**
 
-Create 2 variables **tem** and **humi** to store the temperature and humidity respectively, the code will appear on the right side while you drag and drop the block.
+Δημιουργήστε 2 μεταβλητές **tem** και **humi** για να αποθηκεύσετε τη θερμοκρασία και την υγρασία αντίστοιχα, ο κώδικας Arduino θα εμφανιστεί στη δεξιά πλευρά ενώ σύρετε και αποθέτετε τα μπλοκ.
 
 .. image:: img/11_readtem.png
 
-**4. Print them on the Serial Monitor**
+**4. Εκτυπώστε τα στη Σειριακή Οθόνη**
 
-Write the read temperature and humidity to the Serial Monitor. To avoid transferring too fast and causing PictoBlox to jam, use the [wait seconds] block, to add some time interval for the next print.
+Γράψτε τη θερμοκρασία και την υγρασία που διαβάσατε στη σειριακή οθόνη. Για να αποφύγετε τη γρήγορη μεταφορά που μπορεί να προκαλέσει εμπλοκή στο PictoBlox, χρησιμοποιήστε το μπλοκ [wait seconds], για να προσθέσετε κάποιο χρονικό διάστημα για την επόμενη εκτύπωση.
 
 .. image:: img/11_writeserial.png
 
-**5. Uploading code**
+**5. UΜεταφόρτωση κώδικα**
 
-Unlike the **Stage** mode, the code in **Upload** mode needs to be uploaded to the Arduino board using the **Upload Code** button to see the effect. This also allows you to unplug the USB cable and still have the program running.
+Σε αντίθεση με τη λειτουργία **Stage**, ο κώδικας στη λειτουργία **Upload** πρέπει να μεταφορτωθεί στην πλακέτα Arduino, χρησιμοποιώντας το κουμπί **Upload Code**, για να δείτε το αποτέλεσμα. Αυτό σας επιτρέπει επίσης να αποσυνδέσετε το καλώδιο USB και να συνεχίσετε να τρέχετε το πρόγραμμα.
 
 .. image:: img/11_upload.png
 
-**6. Turn on the serial monitor**
+**6. Ενεργοποίηση σειριακής οθόνης**
 
-Now open the **Serial Monitor** to see the temperature and humidity.
+Ανοίξτε τώρα το **Serial Monitor** για να δείτε τη θερμοκρασία και την υγρασία.
 
 .. image:: img/11_serial.png
 
