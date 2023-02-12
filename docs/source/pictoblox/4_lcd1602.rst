@@ -3,22 +3,22 @@
 2.4 LCD1602
 =================
 
-LCD1602 can be used to display 2x16 characters, now we let it display the corresponding characters with the character sprites on the stage.
+H LCD1602 μπορεί να χρησιμοποιηθεί για την εμφάνιση 2x16 χαρακτήρων. Σε ό,τι ακολουθεί θα την προγραμματίσουμε να εμφανίζει τους αντίστοιχους χαρακτήρες με τις μορφές χαρακτήρων στο σκηνικό.
 
-When you click the Hello on the stage one by one, they will have different animation effects and the characters will be displayed on the LCD1602 at the same time.
+Όταν κάνετε κλικ στους χαρακτήρες του "Hello" έναν προς έναν, θα έχουν διαφορετικά εφέ κινουμένων σχεδίων ο καθένας και θα εμφανίζονται στην οθόνη LCD1602 ταυτόχρονα.
 
 .. image:: img/5_hello.png
 
 
-You Will Learn
+Θα μάθετε
 ---------------------
 
-- Using the LCD1602
-- Select multiple different sprites
-- Change sprite size, rotation angle, color and show or hide.
+- Να χρησιμοποιείτε την οθόνη LCD1602
+- Να επιλέγετε πολλές διαφορετικές μορφές
+- Να αλλάζετε το μεγέθους μορφής, γωνία περιστροφής, χρώμα και εμφάνιση ή απόκρυψη.
 
 
-Build the Circuit
+Κατασκευάστε το κύκλωμα
 ---------------------
 
 .. image:: img/circuit/lcd1602_circuit.png
@@ -26,73 +26,63 @@ Build the Circuit
 * :ref:`cpn_mega2560`
 * :ref:`cpn_i2c_lcd1602`
 
-Programming
+Προγραμματισμός
 ------------------
 
-**1. Select sprite**
+**1. Επιλέξτε μορφή**
 
-Delete the default sprite, click **Choose a Sprite**, then click **letters** and select the sprite you want.
+Διαγράψτε την προεπιλεγμένη μορφή, κάντε κλικ στο **Choose a Sprite**, μετά κάντε κλικ στα **letters** και επιλέξτε τη μορφή που θέλετε.
 
 .. image:: img/5_sprite.png
 
-For example, I chose Hello, as shown below.
+Για παράδειγμα, επέλεξα το "Hello", όπως φαίνεται παρακάτω.
 
 .. image:: img/5_sprite1.png
 
-Now to set different effects for these sprites and display them on the LCD1602 while clicking.
+Τώρα θα δούμε πώς θα ορίσετε διαφορετικά εφέ για αυτές τις μορφές και πώς θα τις εμφανίσετε στην οθόνη LCD1602 ενώ κάνετε κλικ.
 
-**2. H is zoom in and zoom out**
+**2. Το "H" θα μεγεθύνεται και θα μικραίνει**
 
-Click on the **H** sprite, and now write a script for it.
+Κάντε κλικ στη μορφή **H** για να γράψετε ένα σενάριο για αυτή: όταν κάποιος κάνει κλικ στη μορφή **H**, μίκρυνε το μέγεθός της στο 50% και στη συνέχεια επαναφέρετέ το και εμφάνισε το "H" στην πρώτη γραμμή και στήλη της οθόνης LCD1602.
 
-When the sprite **H** is clicked, make its size to 50%, then restore it; while displaying H on the first row and column of the LCD1602.
-
-* [set size to]: From **Looks** palette, used to set the size of the sprite, from 0% to 100%.
-* [set cursor at columan row]: From **Display Modules** palette, used to set the cursor at a specific row of the LCD1602 to start displaying characters.
-* [write display]: From the **Display Modules** palette, used to display characters or strings on the LCD1602.
+* [set size to]: Από την παλέτα **Looks**, χρησιμοποιείται για τον ορισμό του μεγέθους της μορφής, από 0% έως 100%.
+* [set cursor at columan row]: Από την παλέτα **Display Modules**, χρησιμοποιείται για να ρυθμίσετε τον κέρσορα σε μια συγκεκριμένη γραμμή και στήλη της οθόνης LCD1602, για να ξεκινήσει η εμφάνιση χαρακτήρων.
+* [write display]: Από την παλέτα **Display Modules**, χρησιμοποιείται για την εμφάνιση χαρακτήρων ή συμβολοσειρών στην οθόνη LCD1602.
 
 .. image:: img/5_h.png
 
-The distribution of rows and columns on the LCD1602 is shown in the figure.
+Η κατανομή των γραμμών και των στηλών στην οθόνη LCD1602 φαίνεται στο παρακάτω σχήμα.
 
 .. image:: img/5_row.png
 
-**3. E is flipping left and right**
+**3. Το E γυρίζει αριστερά και δεξιά**
 
-Click on the **E** sprite, and now write a script for it.
+Κάντε κλικ στη μορφή **E** για να γράψετε ένα σενάριο για αυτή: όταν κάποιος κάνει κλικ στη μορφή **E**, αυτή να στρίβει 180 μοίρες δεξιόστροφα και μετά 180 μοίρες αριστερόστροφα, ώστε να γυρίσει αριστερά και δεξιά. Και εμφάνισε το "E" στην πρώτη γραμμή και τη δεύτερη στήλη της οθόνης LCD1602.
 
-When the sprite **E** is clicked, have it turn 180 degrees clockwise, then 180 degrees counterclockwise so you can see it flip left and right; and show H in the first row and column 2 of the LCD1602.
-
-* [turn degrees]: From the **Motions** palette, used to turn the sprite clockwise or counterclockwise, the range is 0-360 degrees.
+* [turn degrees]: Από την παλέτα **Motions**, χρησιμοποιείται για τη στροφή της μορφής δεξιόστροφα ή αριστερόστροφα, το εύρος είναι 0-360 μοίρες.
 
 .. image:: img/5_lcd.png
 
-**4. L is slowly shrinking and zooming in**
+**4. Το L μεγεθύνεται και μετά συρρικνώνεται βαθμιαία**
 
-Click on the **first L** sprite and now write a script for it.
+Κάντε κλικ στη μορφή του **πρώτου L** για να γράψετε ένα σενάριο για αυτή: όταν κάποιος κάνει κλικ στη μορφή του **L**, αύξήσε το μέγεθός του κατά 50% (5 φορές, 10% κάθε φορά) χρησιμοποιώντας το μπλοκ [repeat], στη συνέχεια συρρίκνωσέ το ξανά στο αρχικό του μέγεθος με τον ίδιο τρόπο και εμφάνισε το L στην πρώτη σειρά και στήλη 3 της οθόνης LCD1602.
 
-When the sprite **L** is clicked, use the [repeat] block to increase its size by 50% (5 times, 10 each time), then shrink it back to its original size in the same way, while displaying L in the first row and column 3 of the LCD1602.
-
-* [change size by]: From the Motions palette, used to change the size of the sprite.
+* [change size by]: Από την παλέτα **Motions**, χρησιμοποιείται για την αλλαγή του μεγέθους της μορφής.
 
 .. image:: img/5_l.png
 
-**5. The second L is changing color**
+**5. Το δεύτερο L αλλάζει χρώμα**
 
-Click on the **second L** sprite and now write a script for it.
+Κάντε κλικ στη μορφή του **δεύτερου L** για να γράψετε ένα σενάριο για αυτή: όταν κάποιος κάνει κλικ στη μορφή του **L**, χρησιμοποιώντας το μπλοκ [repeat] επανέλαβε 10 φορές με ρυθμό αύξησης 20 την αλλαγή χρώματος της μορφής και επιστροφή στο αρχικό χρώμα. Εμφάνισε επίσης το L στην πρώτη γραμμή και τη στήλη 4 της οθόνης LCD1602.
 
-When the sprite **L** is clicked, use the [repeat] block to repeat 10 times at a rate of 20 increments to switch between colors and return to the original color. Also display L in the first row and column 4 of the LCD1602.
-
-* [`change color effect by <https://en.scratch-wiki.info/wiki/Graphic_Effect#Changing_of_colors_using_the_Color_Effect_block>`_]: Used to change the color Effect, one costume can take on 200 different color-schemes using the color effect, 0 and 200 are the same color.
+* [`change color effect by <https://en.scratch-wiki.info/wiki/Graphic_Effect#Changing_of_colors_using_the_Color_Effect_block>`_]: Χρησιμοποιείται για την αλλαγή του εφέ χρώματος, μια φιγούρα μπορεί να πάρει 200 διαφορετικούς συνδυασμούς χρωμάτων χρησιμοποιώντας το εφέ χρώματος, τα 0 και 200 είναι το ίδιο χρώμα.
 
 .. image:: img/5_2l.png
 
-**6. O is hide and show**
+**6. Το O αποκρύπτεται και εμφανίζεται**
 
-Click on the **O** sprite and now write a script for it.
+Κάντε κλικ στη μορφή του **O** για να γράψετε ένα σενάριο για αυτή: όταν κάποιος κάνει κλικ στη μορφή του **O**, επανέλαβε τη διαδικασία απόκρυψης και εμφάνισης 3 φορές και εμφάνισε το O στην πρώτη σειρά και στη στήλη 5 της LCD1602..
 
-When the **O** sprite is clicked, it repeats the hide and show process 3 times, while displaying O in the first row and column 5 of the LCD1602.
-
-* [Hide] & [Show]: make the sprite hide and show.
+* [Hide] & [Show]: κάνουν τη μορφή να αποκρύπτεται και να εμφανίζεται.
 
 .. image:: img/5_o.png
