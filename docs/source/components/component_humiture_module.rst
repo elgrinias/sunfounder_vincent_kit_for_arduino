@@ -1,26 +1,24 @@
 .. _cpn_humiture:
 
-Humiture Sensor Module
+Μονάδα αισθητήρα θερμοκρασίας/υγρασίας
 =============================
 
 .. image:: img/dht11_pic.png
     :width: 400
     :align: center
 
-The digital temperature and humidity sensor DHT11 is a composite sensor that contains a calibrated digital signal output of temperature and humidity. 
-The technology of a dedicated digital modules collection and the temperature and humidity sensing technology are applied to ensure that the product has high reliability and excellent long-term stability.
+Ο ψηφιακός αισθητήρας θερμοκρασίας και υγρασίας DHT11 είναι ένας σύνθετος αισθητήρας που περιλαμβάνει μια βαθμονομημένη έξοδο ψηφιακού σήματος θερμοκρασίας και υγρασίας. Η τεχνολογία της συλλογής "αφοσιωμένων" ψηφιακών μονάδων και η τεχνολογία ανίχνευσης θερμοκρασίας και υγρασίας εφαρμόζονται για να διασφαλιστεί ότι το προϊόν έχει υψηλή αξιοπιστία και εξαιρετική σταθερότητα μακροπρόθεσμα.
 
-
-Only three pins are available for use: VCC, GND, and DATA. 
-The communication process begins with the DATA line sending start signals to DHT11, and DHT11 receives the signals and returns an answer signal. 
-Then the host receives the answer signal and begins to receive 40-bit humiture data (8-bit humidity integer + 8-bit humidity decimal + 8-bit temperature integer + 8-bit temperature decimal + 8-bit checksum).
+Μόνο τρεις ακίδες είναι διαθέσιμες για χρήση: οι VCC, GND, και DATA. 
+Η διαδικασία επικοινωνίας ξεκινά με τη γραμμή DATA που στέλνει σήματα έναρξης στο DHT11 και το DHT11 λαμβάνει τα σήματα και επιστρέφει ένα σήμα απάντησης. 
+Στη συνέχεια, ο κεντρικός υπολογιστής λαμβάνει το σήμα απάντησης και αρχίζει να λαμβάνει δεδομένα θερμοκρασίας/υγρασίας 40 bit (ακέραιος αριθμός υγρασίας των 8 bit + δεκαδικός αριθμός υγρασίας των 8 bit + ακέραιος αριθμός θερμοκρασίας των 8 bit + δεκαδικός αριθμός θερμοκρασίας των 8 bit + άθροισμα ελέγχου των 8 bit).
 
 .. image:: img/Dht11.png
 
 
 * `DHT11 Datasheet <https://components101.com/sites/default/files/component_datasheet/DHT11-Temperature-Sensor.pdf>`_
 
-**Example**
+**Παραδείγματα**
 
-* :ref:`ar_humiture` (Arduino Project)
-* :ref:`humiture` (Scratch Project)
+* :ref:`ar_humiture` (Έργο Arduino)
+* :ref:`humiture` (Έργο Scratch)
