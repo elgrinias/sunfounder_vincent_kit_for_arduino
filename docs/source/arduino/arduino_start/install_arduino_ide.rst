@@ -1,4 +1,4 @@
-Install and Introduce Arduino IDE
+Εγκατάσταση και Εισαγωγή στο Arduino IDE
 ========================================
 
 Install Arduino IDE
