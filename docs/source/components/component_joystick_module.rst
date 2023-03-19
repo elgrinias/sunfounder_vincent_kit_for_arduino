@@ -1,25 +1,25 @@
 .. _cpn_joystick:
 
-Joystick Module
+Μονάδα Joystick 
 =======================
 
 .. image:: img/joystick_pic.png
     :align: center
     :width: 600
 
-The basic idea of a joystick is to translate the movement of a stick into electronic information that a computer can process.
+Η βασική ιδέα ενός joystick είναι να μεταφράσει την κίνηση ενός μοχλού σε ηλεκτρονικές πληροφορίες που μπορεί να επεξεργαστεί ο υπολογιστής.
 
-In order to communicate a full range of motion to the computer, a joystick needs to measure the stick’s position on two axes – the X-axis (left to right) and the Y-axis (up and down). Just as in basic geometry, the X-Y coordinates pinpoint the stick’s position exactly.
+Για να επικοινωνήσει ένα πλήρες εύρος κίνησης στον υπολογιστή, το joystick πρέπει να μετρήσει τη θέση του μοχλού σε δύο άξονες – τον άξονα Χ (από αριστερά προς τα δεξιά) και τον άξονα Υ (από πάνω προς τα κάτω). Όπως και στη βασική γεωμετρία, οι συντεταγμένες XY εντοπίζουν ακριβώς τη θέση του μοχλού.
 
-To determine the location of the stick, the joystick control system simply monitors the position of each shaft. The conventional analog joystick design does this with two potentiometers, or variable resistors.
+Για τον προσδιορισμό της θέσης του μοχλού, το σύστημα ελέγχου του joystick απλώς παρακολουθεί τη θέση σε κάθε άξονα. Ο συμβατικός σχεδιασμός αναλογικού joystick το κάνει αυτό με δύο ποτενσιόμετρα ή μεταβλητές αντιστάσεις.
 
-The joystick also has a digital input that is actuated when the joystick is pressed down.
+Το joystick έχει επίσης μια ψηφιακή είσοδο που ενεργοποιείται όταν πατάτε το joystick προς τα κάτω.
 
 .. image:: img/joystick318.png
     :align: center
     :width: 600
 	
-**Example**
+**Παραδε**
 
 * :ref:`ar_joystick` (Arduino Project)
 * :ref:`star_crossed` (Scratch Project)
