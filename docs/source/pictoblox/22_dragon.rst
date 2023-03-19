@@ -40,27 +40,28 @@
 
 **1. Dragon**
 
-**Woods** backdrop added via the **Choose a Backdrop** button.
+Το σκηνικό **Woods** προστίθεται μέσω του κουμπιού **Choose a Backdrop**.
 
 .. image:: img/19_dragon01.png
 
-* Delete the default sprite and add the **Dragon** sprite.
+* Διαγράψτε την προεπιλεγμένη μορφή και προσθέστε τη μορφή **Dragon**.
+
 
 .. image:: img/19_dragon0.png
 
-* Go to the **Costumes** page and flip the dragon-b and dragon-c horizontally.
+* Μεταβείτε στη σελίδα **Costumes** και γυρίστε τα dragon-b και dragon-c οριζόντια.
 
 .. image:: img/19_dragon1.png
 
-* Set the size to 50%.
+* Ρυθμίστε το μέγεθος στο 50%.
 
 .. image:: img/19_dragon3.png
 
-* Now create a variable - **dragon** to record the dragon's life points, and set the initial value to 50.
+* Τώρα δημιουργήστε μια μεταβλητή - **dragon** για να καταγράψετε τα σημεία ζωής του δράκου και ορίστε την αρχική τιμή σε 50.
 
 .. image:: img/19_dragon2.png
 
-* Next, switch the sprite costume to **dragon-b** and have the **Dragon** sprite up and down in a range.
+* Στη συνέχεια, αλλάξτε την ενδυμασία της μορφής σε **dragon-b** και βάλτε τη μορφή **Dragon** πάνω-κάτω σε ένα εύρος.
 
 .. image:: img/19_dragon4.png
 
