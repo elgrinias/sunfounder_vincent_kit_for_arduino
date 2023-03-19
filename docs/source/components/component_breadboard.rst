@@ -7,19 +7,16 @@ Breadboard
 .. image:: img/breadboard.png
     :width: 600
 
-A breadboard is a construction base for prototyping of electronics. Originally the word referred to a literal bread board, a polished piece of wood used for slicing bread.[1] In the 1970s the solderless breadboard (a.k.a. plugboard, a terminal array board) became available and nowadays the term "breadboard" is commonly used to refer to these.
+Το breadboard είναι μια κατασκευαστική βάση για τη δημιουργία πρωτότυπων ηλεκτρονικών κυκλωμάτων. Αρχικά η λέξη αναφερόταν κυριολεκτικά σε σανίδα ψωμιού, ένα κομμάτι ξύλου με λεία επιφάνεια που χρησιμοποιείται για τον τεμαχισμό του ψωμιού. Στη δεκαετία του 1970 έγινε διαθέσιμη η πλακέτα breadboard χωρίς συγκόλληση (γνωστή και ως plugboard, μια πλακέτα διάταξης τερματικού) και στις μέρες μας ο όρος «breadboard» χρησιμοποιείται συνήθως για να αναφερθεί σε αυτές.
 
-It is used to build and test circuits quickly before finishing any circuit design. 
-And it has many holes into which components mentioned above can be inserted like ICs and resistors as well as jumper wires. 
-The breadboard allows you to plug in and remove components easily. 
+Χρησιμοποιείται για τη γρήγορη κατασκευή και δοκιμή κυκλωμάτων κατά τη διάρκεια του σχεδιασμού τους. Και έχει πολλές τρυπίτσες στις οποίες εισάγονται  εξαρτήματα που αναφέρονται παραπάνω, όπως ICs και αντιστάσεις, καθώς και καλώδια βραχυκυκλωτήρα. Το breadboard σάς επιτρέπει να συνδέετε και να αφαιρείτε εξαρτήματα εύκολα.
 
-The picture shows the internal structure of a breadboard. 
-Although these holes on the breadboard appear to be independent of each other, they are actually connected to each other through metal strips internally.
+Η εικόνα δείχνει την εσωτερική δομή ενός breadboard. Αν και αυτές οι τρυπίτσες στο breadboard φαίνεται να είναι ανεξάρτητες η μία από την άλλη, στην πραγματικότητα συνδέονται μεταξύ τους μέσω μεταλλικών λωρίδων εσωτερικά.
 
 .. image:: img/breadboard_internal.png
     :width: 600
 
-If you want to know more about breadboard, refer to: `How to Use a Breadboard - Science Buddies <https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard#pth-smd>`_
+Αν θέλετε να μάθετε περισσότερα για το breadboard, ανατρέξτε στο: `How to Use a Breadboard - Science Buddies <https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard#pth-smd>`_
 
 
 
