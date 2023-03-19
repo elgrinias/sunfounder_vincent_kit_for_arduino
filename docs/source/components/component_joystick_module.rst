@@ -19,8 +19,8 @@
     :align: center
     :width: 600
 	
-**Παραδε**
+**Παραδείγματα**
 
-* :ref:`ar_joystick` (Arduino Project)
-* :ref:`star_crossed` (Scratch Project)
-* :ref:`dragon` (Scratch Project)
+* :ref:`ar_joystick` (Arduino)
+* :ref:`star_crossed` (Έργο Scratch)
+* :ref:`dragon` (Έργο Scratch)
