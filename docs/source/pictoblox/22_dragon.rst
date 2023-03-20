@@ -57,56 +57,58 @@
 
 .. image:: img/19_dragon3.png
 
-* Τώρα δημιουργήστε μια μεταβλητή - **dragon** για να καταγράψετε τα σημεία ζωής του δράκου και ορίστε την αρχική τιμή σε 50.
+* Τώρα δημιουργήστε μια μεταβλητή - **dragon** για να καταγράψετε τα επίπεδα "ζωής" του δράκου και ορίστε την αρχική τιμή σε 50.
 
 .. image:: img/19_dragon2.png
 
-* Στη συνέχεια, αλλάξτε την ενδυμασία της μορφής σε **dragon-b** και βάλτε τη μορφή **Dragon** πάνω-κάτω σε ένα εύρος.
+* Στη συνέχεια, αλλάξτε την ενδυμασία της μορφής σε **dragon-b** και βάλτε τη μορφή **Dragon** να κινείται πάνω-κάτω σε ένα εύρος.
 
 .. image:: img/19_dragon4.png
 
 
-* Add a **Lightning** sprite as the fire blown by the **Dragon** sprite. You need to rotate it 90° clockwise in the Costumes page, this is to make the **Lightning** sprite move in the right direction.
+* Προσθέστε τη μορφή **Lightning** για τη φλόγα που θα εκτοξεύει η μορφή Dragon. Πρέπει να τhn περιστρέψετε κατά 90° δεξιόστροφα στη σελίδα Costumes, για να κάνετε τη μορφή Lightning να κινηθεί προς τη σωστή κατεύθυνση.
+
 
 .. note::
-    When adjusting the **Lightning** sprite's costume, you may move it off-center, which must be avoided! The center point must be right in the middle of the sprite!
+    Καθώς προσαρμόζετε την ενδυμασία της μορφής Lightning, μπορεί να τη μετακινήσετε εκτός κέντρου, κάτι που πρέπει να αποφευχθεί! Το κεντρικό της σημείο πρέπει να βρίσκεται ακριβώς στη μέση της μορφής!
 
 .. image:: img/19_lightning1.png
 
-
-
-* Then adjust the **dragon-c** costume of the **Dragon** sprite so that its center point should be at the tail of the fire. This will make the positions of the **Dragon** sprite and the **Lightning** sprite correct, and prevent **Lightning** from launching from the dragon's feet. 
+* Στη συνέχεια, προσαρμόστε την ενδυμασία **dragon-c** της μορφής **Dragon** έτσι ώστε το κεντρικό σημείο της να βρίσκεται στην ουρά της φλόγας. Αυτό θα φέρει τις μορφές **Dragon** και **Lightning** στη σωστή θέση και θα αποτρέψει την εκτόξευση της φλόγας **Lightning** από τα πόδια του δράκου.
 
 .. image:: img/19_dragon5.png
 
-* Correspondingly, **dragon-b** needs to make the head of the dragon coincide with the center point.
+* Αντίστοιχα, το **dragon-b** πρέπει να κάνει το κεφάλι του δράκου να συμπίπτει με το κεντρικό σημείο.
 
 .. image:: img/19_dragon5.png
 
-* Adjust the size and orientation of the **Lightning** sprite to make the image look more harmonious.
+* Προσαρμόστε το μέγεθος και τον προσανατολισμό της μορφής **Lightning** για να κάνετε την εικόνα να φαίνεται πιο αρμονική.
 
 .. image:: img/19_lightning3.png
 
-* Now script the **Lightning** sprite. This is easy, just have it follow the **Dragon** sprite all the time. At this point, click on the green flag and you will see **Dragon** moving around with lightning in its mouth.
+* Τώρα γράψτε το σενάριο για τη μορφή **Lightning**. Αυτό είναι εύκολο, απλά αφήστε τη να ακολουθεί τη μορφή **Dragon** όλη την ώρα. Σε αυτό το σημείο, κάντε κλικ στην πράσινη σημαία και θα δείτε τον **Dragon** να κινείται με τη μορφή **Lightning** στο στόμα του.
+
 
 .. image:: img/19_lightning4.png
 
-* Back to the **Dragon** sprite, now have it blow out fire, being careful not to let the fire in its mouth shoot out, but to create a clone for the **Lightning** sprite.
+* Επιστρέψτε στη μορφή **Dragon**, κάντε τη τώρα να σβήνει τη φλόγα, προσέχοντας να μην αφήσετε την ίδια τη φλόγα στο στόμα της μορφής **Dragon** να εκτοξευτεί, αλλά  έναν κλώνο της μορφής **Lightning** που θα δημιουργήσετε γι' αυτό το λόγο.
 
 .. image:: img/19_dragon6.png
 
-* Click on the **Lightning** sprite and let the **Lightning** clone shoot out at a random angle, it will bounce off the wall and disappear after a certain amount of time.
+* Κάντε κλικ στη μορφή **Lightning** και αφήστε τον κλώνο **Lightning** να εκτοξευτεί σε τυχαία γωνία, να αναπηδήσει από τον τοίχο και να εξαφανιστεί μετά από ένα ορισμένο χρονικό διάστημα.
+
 
 .. image:: img/19_lightning5.png
 
-* In the **Lightning** sprite, hide its body and show the clone.
+* Στη μορφή **Lightning**, κρύψτε το σώμα της και δείξτε τον κλώνο.
+
 
 .. image:: img/19_lightning6.png
 
-Now the dragon can move up and down and blow out fire.
+Τώρα ο δράκος μπορεί να κινηθεί πάνω-κάτω και να εκτοξεύει τη φλόγα..
 
 
-**2.Wand**
+**2. Ραβδί**
 
 * Create a **Wand** sprite and rotate its direction to 180 to point to the right.
 
