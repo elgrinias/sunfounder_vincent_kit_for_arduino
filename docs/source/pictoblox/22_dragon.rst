@@ -137,25 +137,24 @@
 
 **3. Μάχη!**
 
-The wand and the dragon are currently still at odds with each other, and we're going to make them fight. The dragon is strong, and the wand is the brave man who crusades against the dragon. The interaction between them consists of the following parts.
+Το ραβδί και ο δράκος προς το παρόν εξακολουθούν να βρίσκονται το ένα απέναντι στον άλλο και θα τους κάνουμε να μαλώσουν. Ο δράκος είναι δυνατός και το ραβδί είναι ο γενναίος που μάχεται εναντίον του δράκου. Η μεταξύ τους αλληλεπίδραση αποτελείται από τα ακόλουθα μέρη.
 
 
-1. if the wand touches the dragon, it will be knocked back and lose life points.
-2. if lightning strikes the wand, the wand will lose life points.
-3. if the star bullet hits the dragon, the dragon will lose life points.
+1. αν το ραβδί αγγίξει τον δράκο, αυτός θα τιναχτεί πίσω και θα χάσει πόντους ζωής.
+2. εάν η φλόγα χτυπήσει το ραβδί, το ραβδί θα χάσει πόντους ζωής.
+3. αν τα αστεράκια χτυπήσουν τον δράκο, ο δράκος θα χάσει πόντους ζωής.
 
+Μετά από αυτή τη διευθέτηση, ας προχωρήσουμε στην αλλαγή των σεναρίων για κάθε μορφή.
 
-Once that's sorted out, let's move on to changing the scripts for each sprite.
-
-* If the **Wand** hits the **Dragon**, it will be knocked back and lose life points.
+* Εάν η μορφή **Wand** χτυπήσει την μορφή **Dragon**, αυτή θα τιναχτεί πίσω και θα χάσει πόντους ζωής.
 
 .. image:: img/19_wand4.png
 
-* If **Lightning** (a **Lightning** sprite clone) hits the **Wand** sprite, it will make a pop sound and disappear, and the **Wand** will lose life points.
+* Εάν η μορφή **Lightning** (ένας κλώνος της μορφής **Lightning**) χτυπήσει τη μορφή **Wand**, αυτή θα κάνει έναν κρότο και θα εξαφανιστεί, και η μορφή **Wand** θα χάσει πόντους ζωής.
 
 .. image:: img/19_lightning7.png
 
-* If a **Star** (clone of the **Star** sprite) hits the **Dragon**, it will emit a collect sound and disappear, while restoring the **Star** count, and the **Dragon** will lose life points.
+* Εάν η μορφή **Star** (κλώνος της μορφής **Star**) χτυπήσει τη μορφή **Dragon**, it will emit a collect sound and disappear, while restoring the **Star** count, and the **Dragon** will lose life points.
 
 .. image:: img/19_star4.png
 
