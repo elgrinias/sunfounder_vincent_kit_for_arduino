@@ -171,7 +171,7 @@
 
 .. image:: img/19_night.png
 
-* Now write a script to switch these backgdrops, when the green flag is clicked, switch to **Woods** backgdrop; if the dragon's life point is less than 1 , then the game succeeds and switch the backdrop to **Blue Sky**; if the life value point of the **Wand** is less than 1, then switch to **Night** backdrop and the game fails. Τώρα γράψτε ένα σενάριο για εναλλαγή αυτών των φόντων, όταν κάνετε κλικ στην πράσινη σημαία, μεταβείτε στο σηκηνικό **Woods**. Εάν ο βαθμός "ζωής" του δράκου είναι μικρότερος από 1, τότε θεωρούμε ότι ο δράκος νικήθηκε και θα αλλάζει το σκηνικό σε **Blue Sky**. Εάν η τιμή της "ζωής" του ραβδιού είναι μικρότερη από 1, τότε θεωρούμε ότι η μάθη χάθηκε και το σκηνικό θα αλλάζει σε **Night**.
+* Τώρα γράψτε ένα σενάριο για εναλλαγή αυτών των φόντων, όταν κάνετε κλικ στην πράσινη σημαία, μεταβείτε στο σηκηνικό **Woods**. Εάν ο βαθμός "ζωής" του δράκου είναι μικρότερος από 1, τότε θεωρούμε ότι ο δράκος νικήθηκε και θα αλλάζει το σκηνικό σε **Blue Sky**. Εάν η τιμή της "ζωής" του ραβδιού είναι μικρότερη από 1, τότε θεωρούμε ότι η μάθη χάθηκε και το σκηνικό θα αλλάζει σε **Night**.
 
 
 
