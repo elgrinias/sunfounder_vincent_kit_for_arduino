@@ -142,7 +142,7 @@
 
 1. αν το ραβδί αγγίξει τον δράκο, αυτός θα τιναχτεί πίσω και θα χάσει πόντους ζωής.
 2. εάν η φλόγα χτυπήσει το ραβδί, το ραβδί θα χάσει πόντους ζωής.
-3. αν τα αστεράκια χτυπήσουν τον δράκο, ο δράκος θα χάσει πόντους ζωής.
+3. αν τα αστέρια χτυπήσουν τον δράκο, ο δράκος θα χάσει πόντους ζωής.
 
 Μετά από αυτή τη διευθέτηση, ας προχωρήσουμε στην αλλαγή των σεναρίων για κάθε μορφή.
 
@@ -150,29 +150,29 @@
 
 .. image:: img/19_wand4.png
 
-* Εάν η μορφή **Lightning** (ένας κλώνος της μορφής **Lightning**) χτυπήσει τη μορφή **Wand**, αυτή θα κάνει έναν κρότο και θα εξαφανιστεί, και η μορφή **Wand** θα χάσει πόντους ζωής.
+* Εάν η μορφή **Lightning** (ένας κλώνος της μορφής **Lightning**) χτυπήσει τη μορφή **Wand**, αυτή θα κάνει έναν ήχο "pop" και θα εξαφανιστεί, ενώ η μορφή **Wand** θα χάσει πόντους ζωής.
 
 .. image:: img/19_lightning7.png
 
-* Εάν η μορφή **Star** (κλώνος της μορφής **Star**) χτυπήσει τη μορφή **Dragon**, it will emit a collect sound and disappear, while restoring the **Star** count, and the **Dragon** will lose life points.
+* Εάν η μορφή **Star** (κλώνος της μορφής **Star**) χτυπήσει τη μορφή **Dragon**, θα εκπέμψει έναν ήχο "collect" και θα εξαφανιστεί, ενώ θα επαναφερθεί ο αριθμός των **Star** και η μορφή **Dragon** θα χάσει πόντους ζωής.
 
 .. image:: img/19_star4.png
 
 
-**4. stage**
+**4. Σκηνή**
 
-The battle between the **Wand** and the **Dragon** will eventually be divided into winners and losers, which we represent with the stage.
+Η μάχη ανάμεσα στις μορφές **Wand** και **Dragon** βαθμιαία θα χωριστεί σε νικητές και ηττημένους, κάτι το οποίο θα αναπαριστήσουμε στη Σκηνή.
 
-* Add **Blue Sky** backgdrop, and write the character "WIN!" on it to represent that the dragon has been defeated and the dawn has come.
-
+* Προσθέστε το φόντο **Blue Sky** και γράψτε τον χαρακτήρα «WIN!» πάνω του για να αναπαραστήσουμε το ότι ο δράκος νικήθηκε και ήρθε η αυγή.
 
 .. image:: img/19_sky0.png
 
-* And modify the blank backdrop as follows, to represent that the game has failed and everything will be in darkness.
+* Και τροποποιήστε το κενό φόντο ως εξής, για να δηλώσετε ότι το παιχνίδι απέτυχε και ότι όλα θα είναι στο σκοτάδι.
 
 .. image:: img/19_night.png
 
-* Now write a script to switch these backgdrops, when the green flag is clicked, switch to **Woods** backgdrop; if the dragon's life point is less than 1 , then the game succeeds and switch the backdrop to **Blue Sky**; if the life value point of the **Wand** is less than 1, then switch to **Night** backdrop and the game fails.
+* Now write a script to switch these backgdrops, when the green flag is clicked, switch to **Woods** backgdrop; if the dragon's life point is less than 1 , then the game succeeds and switch the backdrop to **Blue Sky**; if the life value point of the **Wand** is less than 1, then switch to **Night** backdrop and the game fails. Τώρα γράψτε ένα σενάριο για εναλλαγή αυτών των φόντων, όταν κάνετε κλικ στην πράσινη σημαία, μεταβείτε στο σηκηνικό **Woods**. Εάν ο βαθμός "ζωής" του δράκου είναι μικρότερος από 1, τότε θεωρούμε ότι ο δράκος νικήθηκε και θα αλλάζει το σκηνικό σε **Blue Sky**. Εάν η τιμή της "ζωής" του ραβδιού είναι μικρότερη από 1, τότε θεωρούμε ότι η μάθη χάθηκε και το σκηνικό θα αλλάζει σε **Night**.
+
 
 
 .. image:: img/19_sky1.png
