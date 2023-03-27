@@ -6,25 +6,24 @@ LED
 .. image:: img/LED.png
     :width: 400
 
-Semiconductor light-emitting diode is a type of component which can turn electric energy into light energy via PN junctions. By wavelength, it can be categorized into laser diode, infrared light-emitting diode and visible light-emitting diode which is usually known as light-emitting diode (LED). 
+Η δίοδος εκπομπής φωτός ημιαγωγών είναι ένας τύπος εξαρτήματος που μπορεί να μετατρέψει την ηλεκτρική ενέργεια σε φωτεινή ενέργεια μέσω των συνδέσεων PN. Με βάση το μήκος κύματος, μπορεί να κατηγοριοποιηθεί σε δίοδο λέιζερ, δίοδο εκπομπής υπέρυθρου φωτός και δίοδο εκπομπής ορατού φωτός που είναι συνήθως γνωστή ως δίοδος εκπομπής φωτός (LED). 
                     
-Diode has unidirectional conductivity, so the current flow will be as the arrow indicates in figure circuit symbol. You can only provide the anode with a positive power and the cathode with a negative. Thus the LED will light up. 
+Η δίοδος έχει μονοκατευθυντική αγωγιμότητα, επομένως η ροή του ρεύματος θα είναι όπως δείχνει το βέλος στο σύμβολο του κυκλώματος της εικόνας. Μπορείτε να δώσετε στην άνοδο μόνο θετική ισχύ και στην κάθοδο με αρνητική. Έτσι το LED θα ανάψει. 
 
 .. image:: img/led_symbol.png
 
+Ένα LED έχει δύο ακίδες. Η μακρύτερη είναι η άνοδος και η πιο κοντή, η κάθοδος. Προσέξτε να μην τα συνδέσετε αντίστροφα. Υπάρχει σταθερή πτώση ορθής τάσης στο LED, επομένως δεν μπορεί να συνδεθεί απευθείας με το κύκλωμα επειδή η τάση τροφοδοσίας μπορεί να υπερβεί αυτήν την πτώση και να προκαλέσει το κάψιμο του LED. Η ορθή τάση του κόκκινου, κίτρινου και πράσινου LED είναι 1,8 V και του λευκού είναι 2,6 V. Τα περισσότερα LED μπορούν να αντέξουν μέγιστο ρεύμα 20 mA, επομένως πρέπει να συνδέσουμε μια ηλεκτρική αντίσταση (περιορισμού του ρεύματος), σε σειρά.
 
-An LED has two pins. The longer one is the anode, and shorter one, the cathode. Pay attention not to connect them inversely. There is fixed forward voltage drop in the LED, so it cannot be connected with the circuit directly because the supply voltage can outweigh this drop and cause the LED to be burnt. The forward voltage of the red, yellow, and green LED is 1.8 V and that of the white one is 2.6 V. Most LEDs can withstand a maximum current of 20 mA, so we need to connect a current limiting resistor in series.                   
-
-The formula of the resistance value is as follows:
+Ο τύπος της τιμής αντίστασης έχει ως εξής:
 
     R = (Vsupply – VD)/I
 
-**R** stands for the resistance value of the current limiting resistor, **Vsupply** for voltage supply, **VD** for voltage drop and **I** for the working current of the LED.
+όπου το **R** αντιπροσωπεύει την τιμή της ηλεκτρικής αντίστασης, το **Vsupply** την παροχή τάσης, το **VD** την πτώση τάσης και το **I** το ρεύμα λειτουργίας του LED.
 
-Here is the detailed introduction for the LED: `LED - Wikipedia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_.
+Την λεπτομερή εισαγωγή για τα LED θα τη βρείτε εδώ: `LED - Wikipedia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_.
 
-**Example**
+**Παραδείγματα**
 
-* :ref:`ar_led` (Arduino Project)
-* :ref:`breathing_led` (Scratch Project)
-* :ref:`table_lamp` (Scratch Project)
+* :ref:`ar_led` (Έργο Arduino)
+* :ref:`breathing_led` (Έργο Scratch)
+* :ref:`table_lamp` (Έργο Scratch)
