@@ -1,27 +1,26 @@
 .. _cpn_resistor:
 
-Resistor
+Αντίσταση
 ============
 
 .. image:: img/resistor.png
     :width: 300
 
-Resistor is an electronic element that can limit the branch current. 
-A fixed resistor is a kind of resistor whose resistance cannot be changed, while that of a potentiometer or a variable resistor can be adjusted. 
+Η αντίσταση είναι ένα ηλεκτρολογικό/ηλεκτρονικό στοιχείο που μπορεί να περιορίσει το ρεύμα ενός κυκλώματος. Μια σταθερή αντίσταση είναι ένα είδος αντίστασης της οποίας η τιμή δεν μπορεί να αλλάξει, ενώ, αντίθετα, αυτή ενός ποτενσιόμετρου ή μιας μεταβλητής αντίστασης μπορεί να ρυθμιστεί.
 
-Two generally used circuit symbols for resistor. Normally, the resistance is marked on it. So if you see these symbols in a circuit, it stands for a resistor. 
+Υπάρχουν γενικά δύο σύμβολα στη σχεδίαση ηλεκτρικών κυκλωμάτων που δηλώνουν την αντίσταση και κανονικά, η τιμή της αντίστασης συνοδεύει τα σύμβολα αυτά. Έτσι, κάθε ένα από τα παρακάτω σύμβολα σε ένα κύκλωμα, σημαίνει αντίσταση.
 
 .. image:: img/resistor_symbol.png
     :width: 400
 
-**Ω** is the unit of resistance and the larger units include KΩ, MΩ, etc. 
-Their relationship can be shown as follows: 1 MΩ=1000 KΩ, 1 KΩ = 1000 Ω. Normally, the value of resistance is marked on it. 
+Το **Ω** στα σύμβολα παραπάνω είναι η μονάδα μέτρησης της αντίστασης και τα πολλαπλάσια αυτής της μονάδας περιλαμβάνουν τα KΩ, MΩ, κ.λ.π. 
+Η συσχέτιση μεταξύ τους είναι η εξής: 1 MΩ=1000 KΩ, 1 KΩ = 1000 Ω. Κανονικά, η τιμή της αντίστασης αναγράφεται πάνω της. 
 
-When using a resistor, we need to know its resistance first. Here are two methods: you can observe the bands on the resistor, or use a multimeter to measure the resistance. You are recommended to use the first method as it is more convenient and faster. 
+Όταν χρησιμοποιούμε μια αντίσταση, πρέπει πρώτα να ξέρουμε την τιμή της. Υπάρχουν δύο μέθοδοι για να τη μάθουμε: μπορούμε να παρατηρήσουμε τις ζώνες πάνω στην αντίσταση ή να χρησιμοποιήσουμε ένα πολύμετρο για να μετρήσουμε την τιμή της. Συνιστάται να χρησιμοποιήσετε την πρώτη μέθοδο καθώς είναι πιο βολική και πιο γρήγορη.
 
 .. image:: img/resistance_card.jpg
 
-As shown in the card, each color stands for a number. 
+Όπως φαίνεται στην κάρτα, κάθε χρώμα αντιπροσωπεύει έναν αριθμό. 
 
 .. list-table::
 
