@@ -1,30 +1,30 @@
 .. _table_lamp:
 
-2.1 Table Lamp
+2.1 Επιτραπέζιο φωτιστικό
 ================
 
-Here, we connect an LED on the breadboard and have the sprite control the blinking of this LED.
+Εδώ, συνδέουμε ένα LED στο breadboard και έχουμε μια μορφή να ελέγχει το αναβοσβήσιμο αυτού του LED.
 
-When the Button sprite on the stage is clicked, the LED will blink 5 times and then stop.
+Όταν κάνετε κλικ στη μορφή Button στη σκηνή, το LED θα αναβοσβήνει 5 φορές και στη συνέχεια θα σταματάει.
 
 .. image:: img/2_button.png
 
-You Will Learn
+Θα μάθετε
 ---------------------
 
 
-- Breadboard, LEDs and Resistors
-- Building a circuit on a breadboard
-- Delete and select sprites
-- Switching costumes
-- Set a limited number of repeat loops
+- για Breadboard, LED και Αντιστάσεις
+- να κατασκευάζετε κυκλώματα σε breadboard
+- να διαγράφετε και να επιλέγετε μορφές
+- να εναλλάσετε ενδυμασίες
+- να ορίζετε την εκτέλεση βρόχων για συγκεκριμένο αριθμό επαναλήψεων
 
-Build the Circuit
+Κατασκευάστε το κύκλωμα
 -----------------------
 
-Follow the diagram below to build the circuit on the breadboard.
+Ακολουθήστε το παρακάτω διάγραμμα για να δημιουργήσετε το κύκλωμα στο breadboard.
 
-Since the anode of the LED (the longer pin) is connected to pin 9 through a 220Ω resistor, and the cathode of the LED is connected to GND, you can light up the LED by giving pin 9 a high level.
+Δεδομένου ότι η άνοδος του LED (η μεγαλύτερη ακίδα) συνδέεται με τον ακροδέκτη 9 μέσω μιας αντίστασης 220 Ω και η κάθοδος του LED είναι συνδεδεμένη με τη γείωση (GND), μπορείτε να ανάψετε το LED δίνοντας στον ακροδέκτη 9 υψηλό επίπεδο (τάσης).
 
 .. image:: img/circuit/led_circuit.png
 
@@ -32,36 +32,36 @@ Since the anode of the LED (the longer pin) is connected to pin 9 through a 220�
 * :ref:`cpn_led`
 * :ref:`cpn_resistor`
 
-Programming
+Προγραμματισμός
 ------------------
 
-The whole programming is divided into 3 parts, the first part is to select the desired sprite, the second part is to switch the costume for the sprite to make it look clickable, and the third part is to make the LED blink.
+Συνολικά, ο προγραμματισμός χωρίζεται σε 3 μέρη: στο πρώτο μέρος θα επιλέξετε την επιθυμητή μορφή, στο δεύτερο θα αλλάξετε την ενδυμασία της μορφής για να φαίνεται ώστε να φαίνεται ότι κάποιος μπορεί να κάνει κλικ πάνω της και στο τρίτο μέρος θα κάνετε το LED να αναβοσβήνει.
 
-**1. Select Button3 sprite**
+**1. Επιλέξτε τη μορφή Button3**
 
-Delete the existing Tobi sprite by using the Delete button in the upper right corner, and select a sprite again.
+Διαγράψτε την υπάρχουσα μορφή Tobi χρησιμοποιώντας το κουμπί Delete στην επάνω δεξιά γωνία και επιλέξτε ξανά μια μορφή με το κουμπί Choose a Sprite.
 
 .. image:: img/2_tobi.png
 
-Here, we select the **Button3** sprite.
+Εδώ, επιλέγουμε τη μορφή **Button3**.
 
 .. image:: img/2_button3.png
 
-Click on Costumes in the top right corner and you will see that the Button3 sprite has 2 costumes, we set **button3-a** to be released and **button3-b** to be pressed.
+Κάντε κλικ στην καρτέλα Costumes στην επάνω δεξιά γωνία και θα δείτε ότι η μορφή Button3 έχει 2 ενδυμασίες. Η ενδυμασία button3-a θα εμφανίζεται όταν το κουμπί απελευθρώνεται και το button3-b όταν η μορφή πατιέται.
 
 .. image:: img/2_button3_2.png
 
-**2. Switching costumes**.
+**2. Εναλλάξτε Ενδυμασίες**.
 
-When the sprite is clicked (**Events** palette), it switches to costume for **button3-b** (**looks** palette).
+Όταν η μορφή κλικάρεται (Παλέτα **Events**), η ενδυμασία της θα αλλάζει στην **button3-b** (Παλέτα **looks**).
 
 .. image:: img/2_switch.png
 
-**3. Make the LED blink 5 times**
+**3. Κάντε το LED να αναβοσβήσει 5 φορές**
 
-Use the [Repeat] block to make the LED blink 5 times (High-> LOW cycle), remember to change pin 13 to pin 9, and finally switch the costume back to **button3-a**.
+Χρησιμοποιήστε το μπλοκ [Repeat] για να κάνετε το LED να αναβοσβήσει 5 φορές (κύκλος High(Υψηλό)-> LOW(Χαμηλό)), μην ξεχνώντας να αλλάξετε την ακίδα (pin) 13 στην ακίδα 9 και, τελικά, αλλάξτε την ενδυμασία σε **button3-a**.
 
-* [Repeat 10]: limited number of repeat loops, you can set the number of repeats yourself, from the **Control** palette.
+* [Repeat 10]: Ορισμένος αριθμός επαναλήψεων βρόχου, μπορείτε να ορίσετε τον αριθμό επαναλήψεων μόνοι σας, από την παλέτα **Control**.
 
 .. image:: img/2_led_on_off.png
 
