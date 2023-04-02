@@ -49,7 +49,7 @@
 
 .. image:: img/19_dragon0.png
 
-* Μεταβείτε στη σελίδα **Costumes** και γυρίστε τα dragon-b και dragon-c οριζόντια.
+* Μεταβείτε στη σελίδα **Costumes(Ενδυμασίες)** και γυρίστε τα dragon-b και dragon-c οριζόντια.
 
 .. image:: img/19_dragon1.png
 
