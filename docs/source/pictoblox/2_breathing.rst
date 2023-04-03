@@ -1,27 +1,27 @@
 .. _breathing_led:
 
-2.2 Breathing LED
+2.2 LED αναπνοής
 ========================
 
-Now use another method to control the brightness of the LED. Unlike the previous project, here the brightness of the LED is made to slowly diminish until it disappears.
+Θα χρησιμοποιήσουμε τωρα μια άλλη μέθοδο για να ελέγξουμε τη φωτεινότητα του LED. Σε αντίθεση με το προηγούμενο έργο, εδώ η φωτεινότητα του LED μειώνεται αργά μέχρι να σβήσει.
 
-When the sprite on the stage is clicked, the brightness of the LED slowly increases and then goes out instantly.
+Όταν κάνετε κλικ στη μορφή της σκηνής, η φωτεινότητα του LED αυξάνεται αργά και στη συνέχεια σβήνει αμέσως.
 
 .. image:: img/3_ap.png
 
-You Will Learn
+Θα μάθετε
 ---------------------
 
-- Set the output value of the PWM pin
-- Create variables
-- Change the brightness of the sprite
+- Να ρυθμίζετε την τιμή εξόδου της ακίδας PWM
+- Να δημιουργείτε μεταβλητές
+- Να αλλάζετε τη φωτεινότητα μορφής
 
-Build the Circuit
+Κατασκευάστε το κύκλωμα
 -----------------------
 
-This project uses the same circuit as the previous project :ref:`table_lamp`, but instead of using HIGH/LOW to make the LEDs light up or turn off, this project uses the `PWM - Wikipedia <https://en.wikipedia.org/wiki/Pulse-width_modulation>`_ signal to slowly light up or dim down the LED.
+Σε αυτό το έργο το κύκλωμα είναι το ίδιο με αυτό του προηγούμενου έργου :ref:`table_lamp`, αλλά αντί να χρησιμοποιεί HIGH/LOW για να ανάβουν ή να σβήνουν τα LED, το παρόν έργο χρησιμοποιεί το σήμα `PWM - Wikipedia <https://en.wikipedia.org/wiki/Pulse-width_modulation>`_  για να ανάβει ή να σβήνει βαθμιαία το LED.
 
-The PWM signal range is 0-255, on the Arduno Uno board, 3, 5, 6, 9, 10, 11 can output PWM signal; on the Mega2560, 2 - 13, 44 - 46 can output PWM signal.
+Το εύρος σήματος του PWM είναι 0-255. Στην πλακέτα Arduino Uno, οι ακίδες εξόδου 3, 5, 6, 9, 10, 11 μπορούν να εξάγουν σήμα PWM. Στο Mega2560, οι ακίδες 2 - 13, 44 - 46 μπορούν να εξάγουν σήμα PWM.
 
 .. image:: img/circuit/led_circuit.png
 
@@ -29,16 +29,16 @@ The PWM signal range is 0-255, on the Arduno Uno board, 3, 5, 6, 9, 10, 11 can o
 * :ref:`cpn_led`
 * :ref:`cpn_resistor`
 
-Programming
+Προγραμματισμός
 ------------------
 
-**1. Select a sprite**
+**1. Επιλέξτε μια μορφη**
 
 Delete the default sprite, click the **Choose a Sprite** button in the lower right corner of the sprite area, enter **button3** in the search box, and then click to add it.
 
 .. image:: img/3_sprite.png
 
-**2. Creating a variable**.
+**2. Δημιουργήστε μια μεταβλητή**.
 
 Create a variable called **pwm** to store the value of the pwm change.
 
