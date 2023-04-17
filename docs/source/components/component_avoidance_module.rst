@@ -1,6 +1,6 @@
 .. _cpn_avoid:
 
-Obstacle Avoidance Module
+Μονάδα Αποφυγής Εμποδίων
 ===========================================
 
 
@@ -8,17 +8,15 @@ Obstacle Avoidance Module
    :width: 400
    :align: center
 
-* **VCC**: Power supply, 3.3 ~ 5V DC.
-* **GND**: Ground
-* **OUT**: Signal pin, usually high level, and low level when an obstacle is detected.
+* **VCC**: Τροφοδοσία, 3.3 ~ 5V DC.
+* **GND**: Γείωση
+* **OUT**: Ακίδα σήματος, συνήθως υψηλής στάθμης, που γίνεται χαμηλή όταν ανιχνεύεται εμπόδιο.
 
+Η μονάδα IR (υπερύθρων) Αποφυγής Εμποδίων έχει ισχυρή προσαρμοστικότητα στο φως του περιβάλλοντος και διαθέτει ένα ζευγάρι σωλήνων εκπομπής και λήψης υπέρυθρων.
 
-The IR obstacle avoidance module has strong adaptability to environmental light, it has a pair of infrared transmitting and receiving tubes.
+Ο σωλήνας εκπομπής εκπέμπει σε συχνότητα υπερύθρων και όταν η κατευθυνόμενη ακτίνα ανίχνευσης συναντά ένα εμπόδιο, η υπέρυθρη ακτινοβολία λαμβάνεται από τον σωλήνα λήψης και αφού γίνει επεξεργασία από το κύκλώμα σύγκρισης, ανάβει η πράσινη ένδειξη και παράγεται σήμα χαμηλής στάθμης.
 
-The transmitting tube emits infrared frequency, when the detection direction encounters an obstacle, the infrared radiation is received by the receiving tube, 
-after the comparator circuit processing, the green indicator will light up and output low level signal.
-
-The detection distance can be adjusted by potentiometer, the effective distance range 2-30cm.
+Η επιθυμητή απόσταση ανίχνευσης μπορεί να ρυθμιστεί με το ποτενσιόμετρο, μεταξύ 2-30εκ.
 
 .. image:: img/IR_module.png
     :width: 600
@@ -26,8 +24,8 @@ The detection distance can be adjusted by potentiometer, the effective distance 
 
 **Example**
 
-* :ref:`ar_avoid` (Arduino Project)
-* :ref:`shooting` (Scratch Project)
+* :ref:`ar_avoid` (Έργο Arduino)
+* :ref:`shooting` (Έργο Scratch)
 
 
 
