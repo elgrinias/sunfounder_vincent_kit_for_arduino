@@ -1,6 +1,6 @@
 .. _breathing_led:
 
-2.2 LED αναπνοής
+2.2 LED που αναπνέει
 ========================
 
 Θα χρησιμοποιήσουμε τωρα μια άλλη μέθοδο για να ελέγξουμε τη φωτεινότητα του LED. Σε αντίθεση με το προηγούμενο έργο, εδώ η φωτεινότητα του LED μειώνεται αργά μέχρι να σβήσει.
@@ -34,44 +34,43 @@
 
 **1. Επιλέξτε μια μορφη**
 
-Delete the default sprite, click the **Choose a Sprite** button in the lower right corner of the sprite area, enter **button3** in the search box, and then click to add it.
+Διαγράψτε την προεπιλεγμένη μορφή, κάντε κλικ στο κουμπί **Choose a Sprite** στην κάτω δεξιά γωνία της περιοχής μορφής, εισαγάγετε το **button3** στο πλαίσιο αναζήτησης και, στη συνέχεια, κάντε κλικ πάνω του για να το προσθέσετε.
 
 .. image:: img/3_sprite.png
 
 **2. Δημιουργήστε μια μεταβλητή**.
 
-Create a variable called **pwm** to store the value of the pwm change.
+Δημιουργήστε τη μεταβλητή με όνομα **pwm** για να αποθηκεύσετε την τιμή αλλαγής του pwm.
 
-Click on the **Variables** palette and select **Make a Variable**.
+Κάντε κλικ στην παλέτα **Variables** και επιλέξτε **Make a Variable**.
 
 .. image:: img/3_ap_va.png
 
-Enter the name of the variable, it can be any name, but it is recommended to describe its function. The data type is number and For all sprites.
+Εισαγάγετε το όνομα της μεταβλητής, μπορεί να είναι οποιοδήποτε όνομα (οπωσδήποτε με αγγλικούς χαρακτήρες), αλλά συνιστάται να είναι ένα όνομα που να περιγράφει τη λειτουργία της. Ο τύπος δεδομένων είναι Number(αριθμός) και For all sprites (για όλες τις μορφές).
 
 .. image:: img/3_ap_pwm.png
 
-Once created, you will see **pwm** inside the **Variables** palette and in the checked state, which means this variable will appear on the stage. You can try unchecking it to see if pwm is still present on the stage.
+Μόλις δημιουργηθεί, θα δείτε το **pwm** μέσα στην παλέτα **Variables** και σεκατάσταση "επιλεγμένο", που σημαίνει ότι αυτή η μεταβλητή θα εμφανιστεί στη σκηνή. Μπορείτε να δοκιμάσετε να το αποεπιλέξετε για να δείτε αν το pwm εξακολουθεί να υπάρχει στη σκηνή.
 
 .. image:: img/3_ap_0.png
 
-**3. Set the initial state**
+**3. Ρυθμίστε την αρχική κατάσταση**
 
-When the **button3** sprite is clicked, switch the costume to **button-b** (clicked state), and set the initial value of the variable **pwm** to 0.
+When the **button3** sprite is clicked, switch the costume to **button-b** (clicked state), and set the initial value of the variable **pwm** to 0. Όταν θα γίνεται κλικ στη μορφή **button3**, θα αλλάζει η ενδυμασία στην **button-b** (κατάσταση "κλικαρισμένο") και θα ορίζεται αρχική τιμή της μεταβλητής pwm σε 0.
 
-* [set pwm to 0]: from **Variables** palette, used to set the value of the variable.
+* [set pwm to 0]: από την παλέτα **Variables**, χρησιμοποιείται για τον ορισμό της τιμής της μεταβλητής.
 
 .. image:: img/3_ap_brightness.png
 
-**4. Make the LED brighter and brighter**
+**4. Κάντε το LED όλο και πιο φωτεινό**
 
-Since the range of pwm is 255, so by [repeat] block, the variable **pwm** is accumulated to 255 by 5, and then put into [set PWM pin] block, so you can see the LED slowly light up.
+Since the range of pwm is 255, so by [repeat] block, the variable **pwm** is accumulated to 255 by 5, and then put into [set PWM pin] block, so you can see the LED slowly light up. Δεδομένου ότι το εύρος του pwm είναι 0-255, με το μπλοκ [repeat], η τιμή της μεταβλητής pwm αυξάνεται έως το 255 κατά 5 κάθε φορά και, σε κάθε αύξηση, η μεταβλητή τοποθετείται στο μπλοκ [set PWM pin], με αποτέλεσμα το LED να γίνεται όλο και πιο φωτεινό σταδιακά.
 
-* [change pwm by 5]: from **Variables** palette, let the variable change a specific number each time. It can be a positive or negative number, positive is increasing each time, negative is decreasing each time, for example, here the variable pwm is increased by 5 each time.
-* [set PWM pin]: from the **Arduino Uno** palette, used to set the output value of the pwm pin.
+* [change pwm by 5]: από την παλέτα **Variables**, αλλάζει την τιμή της μεταβλητής κατά έναν συγκεκριμένο αριθμό κάθε φορά. Μπορεί να είναι θετικός ή αρνητικός αριθμός, ο θετικός την αυξάνει και ο αρνητικός τη μειώνει κάθε φορά. Για παράδειγμα, εδώ η μεταβλητή pwm αυξάνεται κατά 5 κάθε φορά.
+* [set PWM pin]: από την παλέτα **Arduino Uno**, χρησιμοποιείται για τον ορισμό της τιμής εξόδου της ακίδας pwm.
 
 .. image:: img/3_ap_1.png
 
-
-Finally, switch the costume of button3 back to **button-a** and make the PWM pin value 0, so that the LED will light up slowly and then turn off again.
+Τέλος, αλλάξτε την ενδυμασία του **button3** στην αρχική **button-a** και κάντε την τιμή της ακίδας PWM 0, έτσι ώστε το LED να ανάβει σταδιακά και μετά να σβήσει ξανά.
 
 .. image:: img/3_ap_2.png
