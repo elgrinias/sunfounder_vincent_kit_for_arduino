@@ -33,67 +33,67 @@
 Προγραμματισμός
 ------------------
 
-**1. Paint the Crosshair sprite**
+**1. Σχεδιάστε τη μορφή του Στόχαστρου**
 
-Delete the default sprite, select the **Sprite** button and click **Paint**, a blank sprite **Sprite1** will appear and name it **Crosshair**.
+Διαγράψτε την προεπιλεγμένη μορφή, επιλέξτε το κουμπί **Sprite** και κάντε κλικ στο **Paint**. Ονομάστε **Crosshair** την κενή μορφή **Sprite1** που θα εμφανιστεί.
 
 .. image:: img/14_shooting0.png
 
 
-Go to the **Crosshair** sprite's **Costumes** page. Click on the **Circle** tool, remove the fill color, and set the color and width of the outline.
+Μεταβείτε στη σελίδα **Ενδυμασίες** της μορφής **Crosshair**. Κάντε κλικ στο εργαλείο **Circle**, αφαιρέστε το χρώμα γεμίσματος και ορίστε το χρώμα και το πλάτος του περιγράμματος.
 
 .. image:: img/14_shooting02.png
 
-Now draw a circle with the **Circle** tool. After drawing, you can click to the **Select** tool and move the circle so that the original point is aligned with the center of the canvas.
+Τώρα σχεδιάστε έναν κύκλο με το εργαλείο **Circle**. Μετά το σχεδιασμό του, μπορείτε να κάνετε κλικ στο εργαλείο **Select** και να μετακινήσετε τον κύκλο έτσι ώστε το κέντρο του να ευθυγραμμιστεί με το κέντρο του καμβά.
 
 .. image:: img/14_shooting03.png
 
-Using the **Line** tool, draw a cross inside the circle.
+Χρησιμοποιώντας το εργαλείο **Line**, σχεδιάστε έναν σταυρό μέσα στον κύκλο.
 
 .. image:: img/14_shooting033.png
 
-**Paint the Target sprite**
+**Σχεδιάστε τη μορφή του Στόχου**
 
-Create a new sprite called **Target** sprite.
+Δημιουργήστε μια νέα μορφή με όνομα **Target**.
 
 .. image:: img/14_shooting01.png
 
-Go to the Costumes page of the **Target** sprite, click on the **Circle** tool, select a fill color and remove the Outline and paint a large circle.
+Μεταβείτε στη σελίδα **Ενδυμασίες** της μορφής **Target**, κάντε κλικ στο εργαλείο **Circle** , επιλέξτε ένα χρώμα γεμίσματος, αφαιρέστε το Περίγραμμα και σχεδιάστε έναν μεγάλο κύκλο.
 
 .. image:: img/14_shooting05.png
 
-Use the same method to draw additional circles, each with a different color, and you can use the **Forward** or **Backbard** tool to change the position of the overlapping circles. Note that you also need to select the tool to move the circles, so that the origin of all the circles and the center of the canvas are aligned.
+Χρησιμοποιήστε την ίδια μέθοδο για να σχεδιάσετε επιπλέον κύκλους, τον καθένα με διαφορετικό χρώμα, χρησιμοποιώντας αν χρειαστεί τα εργαλεία **Forward** ή **Backbard** για να αλλάξετε τη θέση των επικαλυπτόμενων κύκλων. Σημειώστε ότι πρέπει επίσης να επιλέξετε το εργαλείο για να μετακινήσετε τους κύκλους, έτσι ώστε το κέντρο όλων των κύκλων και το κέντρο του καμβά να συμπίπτουν.
 
 .. image:: img/14_shooting04.png
 
-**3. Add a backdrop**
+**3. Προσθέστε ένα Σκηνικό**
 
-Add a suitable background which preferably does not have too many colors and does not match the colors in the **Target** sprite. Here I have chosen **Wall1** backdrop.
+Προσθέστε ένα κατάλληλο σκηνικό που κατά προτίμηση δεν έχει πάρα πολλά χρώματα και δεν ταιριάζει με τα χρώματα της μορφής **Target**. Εδώ επέλεξα το σκηνικό **Wall1**.
 
 .. image:: img/14_shooting06.png
 
-**4. Script the Crosshair sprite**
+**4. Γράψτε το σενάριο του Στόχαστρου**
 
-Set the random position and size of the **Crosshair** sprite, and let it move randomly.
+Ορίστε την τυχαία θέση και το μέγεθος της μορφής **Crosshair** και αφήστε τη να κινηθεί τυχαία.
 
 .. image:: img/14_shooting4.png
 
-When a hand is placed in front of the obstacle avoidance module, it will output a low level as a transmit signal.
+Όταν ένα χέρι τοποθετηθεί μπροστά από τη μονάδα Αποφυγής Εμποδίων, αυτή θα στείλει στην έξοδο ένα σήμα χαμηλής στάθμης ως σήμα μετάδοσης.
 
 .. image:: img/14_shooting5.png
 
-When the **shooting** message is received, the sprite stops moving and slowly shrinks, thus simulating the effect of a bullet being shot.
+Όταν ληφθε το μήνυμα **shooting**, η μορφή σταματάει να κινείται και σιγά-σιγά συρρικνώνεται, προσομοιώνοντας έτσι το αποτέλεσμα του πυροβολισμού.
 
 .. image:: img/14_shooting6.png
 
-Use the [Touch color ()] block to determine the position of the shot.
+Χρησιμοποιήστε το μπλοκ [Touch color ()] για να προσδιορίσετε τη θέση της βολής.
 
 .. image:: img/14_shooting7.png
 
-When the shot is inside the yellow circle, 10 is reported.
+Όταν η βολή είναι μέσα στον κίτρινο κύκλο, εμφανίζεται το "10".
 
 .. image:: img/14_shooting8.png
 
-Use the same method to determine the position of the bullet shot, if it is not set on the **Target** sprite, it means it is out of the circle.
+Χρησιμοποιήστε την ίδια μέθοδο για να προσδιορίσετε τη θέση της βολής της σφαίρας. Εάν η θέση δεν έχει οριστεί στη μορφή **Target**, σημαίνει ότι η βολή είναι εκτός στόχου.
 
 .. image:: img/14_shooting9.png
