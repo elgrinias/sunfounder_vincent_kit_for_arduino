@@ -1,36 +1,36 @@
 .. _shooting:
 
-2.14 GAME - Shooting
+2.14 ΠΑΙΧΝΙΔΙ - Σκοποβολή
 ====================================
 
-Have you seen those shooting games on TV? The closer a contestant shoots a bullet on the target to the bullseye, the higher his score.
+Έχετε δει παιχνίδια σκοποβολής στην τηλεόραση; Όσο πιο κοντά ένας διαγωνιζόμενος εκτοξεύει μια σφαίρα προς το κέντρο του στόχου, τόσο υψηλότερο είναι το σκορ του.
 
-Today we are also doing a shooting game in Scratch. In the game, let the Crosshair shoot as far as possible to the bullseye to get a higher score.
+Σε ό,τι ακολουθεί θα φτιάξουμε ένα παιχνίδι σκοποβολής σε Scratch. Στο παιχνίδι, θα πρέπει να προσπαθήσετε να φέρετε το στρόχαστρο κατά το δυνατόν πιο κοντά στο κέντρο του στόχου για να πάρετε υψηλότερο σκορ.
 
-Click on the green flag to start. Use the Obstacle Avoidance module to shoot an bullet.
+Κάντε κλικ στην πράσινη σημαία για να ξεκινήσετε και χρησιμοποιήστε τη μονάδα Αποφυγής Εμποδίων για να πυροβολήσετε (μια σφαίρα κάθε φορά).
 
 .. image:: img/14_shooting.png
 
-You Will Learn
+Θα μάθετε
 ---------------------
 
-- How the Obstacle Avoidance module works and the angle range
-- Paint different sprites
-- Touch colors
+- Πώς δουλεύει η μονάδα Αποφυγής Εμποδίων και το εύρος γωνίας
+- Να ζωγραφίζετε διαφορετικές μορφές
+- Για τα χρώματα επαφής
 
-Build the Circuit
+Κατασκευάστε το κύκλωμα
 -----------------------
 
-The obstacle avoidance module is a distance-adjustable infrared proximity sensor whose output is normally high and low when an obstacle is detected.
+The obstacle avoidance module is a distance-adjustable infrared proximity sensor whose output is normally high and low when an obstacle is detected. Η μονάδα Αποφυγής Εμποδίων είναι ένας αισθητήρας εγγύτητας υπερύθρων με ρυθμιζόμενη απόσταση, του οποίου, συνήθως, η έξοδος είναι υψηλή και γίνεται χαμηλή όταν ανιχνεύεται ένα εμπόδιο.
 
-Now build the circuit according to the diagram below.
+Κατασκευάστε τώρα το κύκλωμα σύμφωνα με το παρακάτω διάγραμμα.
 
 .. image:: img/circuit/avoid_circuit.png
 
 * :ref:`cpn_breadboard`
 * :ref:`cpn_avoid` 
 
-Programming
+Προγραμματισμός
 ------------------
 
 **1. Paint the Crosshair sprite**
