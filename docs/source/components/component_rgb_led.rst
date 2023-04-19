@@ -18,7 +18,7 @@ RGB LED
 .. image:: img/rgb_symbol.png
     :width: 300
 
-Ένα RGB LED έχει 4 ακίδες: the longest one is GND; the others are Red, Green and Blue. Touch its plastic shell and you will find a cut. The pin closest to the cut is the first pin, marked as Red, then GND, Green and Blue in turn. η μεγαλύτερη σε μηκος είναι η GND ενώ οι άλλες αντιστοιχούν στα χρώματα κόκκινο, πράσινο και μπλε. Αγγίξτε το πλαστικό κέλυφος του LED και θα βρείτε ένα κόψιμο. Η ακίδα που βρίσκεται πλησιέστερα στην τομή είναι η πρώτη ακίδα, η οποία σημειώνεται ως Κόκκινο (Red) και μετά με τη σειρά GND, Πράσινο (Green) και Μπλε (Blue).
+Ένα RGB LED έχει 4 ακίδες: η μεγαλύτερη σε μηκος είναι η GND ενώ οι άλλες αντιστοιχούν στα χρώματα κόκκινο, πράσινο και μπλε. Αγγίξτε το πλαστικό κέλυφος του LED και θα βρείτε ένα κόψιμο. Η ακίδα που βρίσκεται πλησιέστερα στην τομή είναι η πρώτη ακίδα, η οποία σημειώνεται ως Κόκκινο (Red) και μετά, ακολουθούν με τη σειρά, τα GND, Πράσινο (Green) και Μπλε (Blue).
 
 .. image:: img/rgb_pin.jpg
     :width: 200
