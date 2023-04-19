@@ -32,32 +32,31 @@
 * :ref:`cpn_resistor`
 
 
-Programming
+Προγραμματισμός
 ------------------
 
-**1. Select sprite**
+**1. Επιλέξτε μορφή**
 
 
-Delete the default sprite, then choose the **Ball** sprite.
+Διαγράψτε την προεπιλεγμένη μορφή και, στη συνέχεια, επιλέξτε τη μορφή **Ball**.
 
 .. image:: img/4_ball.png
 
-And duplicate it 5 times.
+Και αντιγράψτε (duplicate) τη 5 φορές.
 
 .. image:: img/4_duplicate_ball.png
 
-Choose different costumes for these 5 **Ball** sprites and move them to the corresponding positions.
+Επιλέξτε διαφορετικές ενδυμασίες για αυτά τις 5 μορφές **Ball** και μετακινήστε τις στις αντίστοιχες θέσεις.
 
 .. note::
 
-    **Ball3** sprite costume color needs to be manually changed to red.
-
+    Το χρώμα της ενδυμασίας της μορφής **Ball3** πρέπει να αλλάξει χειροκίνητα σε κόκκινο.
 .. image:: img/4_rgb1.png
     :width: 800
 
-**2. Make RGB LEDs light up in the appropriate color**
+**2. Κάντε το RGB LED να φωτίζει στο κατάλληλο χρώμα**
 
-Before understanding the code, we need to understand the `RGB color model <https://en.wikipedia.org/wiki/RGB_color_model>`_.
+Πριν κατανοήσουμε τον κώδικα, πρέπει να κατανοήσουμε το `χρωματικό μοντέλο RGB <https://el.wikipedia.org/wiki/RGB>`_.
 
 The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. 
 
