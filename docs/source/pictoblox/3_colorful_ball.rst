@@ -1,26 +1,26 @@
 .. _colorful_ball:
 
-2.3 Colorful Balls
+2.3 Πολύχρωμες Μπάλες
 =====================
 
-In this project, we will make the RGB LEDs display different colors.
+Σε αυτό το έργο, θα κάνουμε τα RGB LED να εμφανίζουν διαφορετικά χρώματα.
 
-Clicking on different colored balls on the stage area will cause the RGB LED to light up in different colors.
+Κάνοντας κλικ σε διαφορετικές χρωματιστές μπάλες στην περιοχή της σκηνής, το RGB LED θα ανάψει σε διαφορετικά χρώματα.
 
 .. image:: img/4_color.png
 
-You Will Learn
+Θα μάθετε
 ---------------------
 
-- The principle of RGB LED
-- Copy sprites and select different costumes
-- Three primary colors superimposed
+- Την αρχή λειτουργίας του LED RGB
+- Να αντιγράφετε μορφές και να επιλέγετε διαφορετικές ενδυμασίες
+- Πώς να εμφανίζετε τρία βασικά χρώματα, το ένα μετά το άλλο
 
 
-Build the Circuit
+Κατασκευάστε το κύκλωμα
 ---------------------
 
-An RGB LED packages three LEDs of red, green, and blue into a transparent or semitransparent plastic shell. It can display various colors by changing the input voltage of the three pins and superimpose them, which, according to statistics, can create 16,777,216 different colors.
+An RGB LED packages three LEDs of red, green, and blue into a transparent or semitransparent plastic shell. It can display various colors by changing the input voltage of the three pins and superimpose them, which, according to statistics, can create 16,777,216 different colors. Ένα RGB LED εμπεριέχει τρία LED, κόκκινου, πράσινου και μπλε σε ένα διαφανές ή ημιδιαφανές πλαστικό κέλυφος. Μπορεί να εμφανίζει διάφορα χρώματα αλλάζοντας την τάση εισόδου των τριών ακίδων του και να τα υπερθέτει, με τρόπο που, σύμφωνα με τη στατιστική, μπορεί να δημιουργήσει 16.777.216 διαφορετικά χρώματα.
 
 .. image:: img/4_rgb.png
     :width: 300
