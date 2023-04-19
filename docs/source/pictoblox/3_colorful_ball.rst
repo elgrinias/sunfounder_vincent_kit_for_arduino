@@ -20,7 +20,7 @@
 Κατασκευάστε το κύκλωμα
 ---------------------
 
-Ένα RGB LED εμπεριέχει τρία LED, κόκκινου, πράσινου και μπλε σε ένα διαφανές ή ημιδιαφανές πλαστικό κέλυφος. Μπορεί να εμφανίζει διάφορα χρώματα αλλάζοντας την τάση εισόδου των τριών ακίδων του και να τα υπερθέτει, με τρόπο που, σύμφωνα με τη στατιστική, μπορεί να δημιουργήσει 16.777.216 διαφορετικά χρώματα.
+Ένα RGB LED εμπεριέχει τρία LED, ένα κόκκινο, ένα πράσινου και ένα μπλε σε ένα διαφανές ή ημιδιαφανές πλαστικό κέλυφος. Μπορεί να εμφανίζει διάφορα χρώματα αλλάζοντας την τάση εισόδου των τριών ακίδων του και να υπερθέτει τα τρία βασικά χρώματα, με τρόπο που, σύμφωνα με τη στατιστική, μπορεί να δημιουργήσει 16.777.216 διαφορετικά χρώματα.
 
 .. image:: img/4_rgb.png
     :width: 300
@@ -58,35 +58,34 @@
 
 Πριν κατανοήσουμε τον κώδικα, πρέπει να κατανοήσουμε το `χρωματικό μοντέλο RGB <https://el.wikipedia.org/wiki/RGB>`_.
 
-The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors. 
+Το χρωματικό μοντέλο RGB είναι ένα προσθετικό χρωματικό μοντέλο στο οποίο το κόκκινο, το πράσινο και το μπλε φως προστίθενται μαζί με διάφορους τρόπους, για να αναπαράγουν μια ευρεία γκάμα χρωμάτων. 
 
-Additive color mixing: adding red to green yields yellow; adding green to blue yields cyan; adding blue to red yields magenta; adding all three primary colors together yields white.
+Προσθετική ανάμειξη χρωμάτων: η προσθήκη κόκκινου σε πράσινο αποδίδει το κίτρινο. Η προσθήκη πράσινου σε μπλε αποδίδει το κυανό χρώμα. Η προσθήκη του μπλε στο κόκκινο αποδίδει το χρώμα ματζέντα, ενώ προσθέτοντας και τα τρία βασικά χρώματα μαζί προκύπτει το λευκό.
 
 .. image:: img/4_rgb_addition.png
   :width: 400
 
-So the code to make the RGB LED light yellow is as follows.
+Έτσι, ο κωδικός για να κάνετε το RGB LED ανοιχτό κίτρινο είναι ο εξής:
 
 .. image:: img/4_yellow.png
 
+Όταν θα γίνεται κλικ στη μορφή Ball (κίτρινη μπάλα), ρυθμίζουμε την ακίδα 11 σε υψηλό (κόκκινη λυχνία LED αναμμένη), την ακίδα 10 σε υψηλό (πράσινη λυχνία LED αναμμένη) και την ακίδα 9 σε χαμηλό (μπλε LED σβηστή) έτσι ώστε το RGB LED να φωτίζει με κίτρινο χρώμα.
 
-When the Ball sprite (yellow ball) is clicked, we set pin 11 high (red LED on), pin 10 high (green LED on) and pin 9 low (blue LED off) so that the RGB LED will light yellow.
+Μπορείτε να γράψετε κώδικα για τις άλλες μορφές με τον ίδιο τρόπο, ώστε το RGB LED να φωτίζει στα αντίστοιχα χρώματα.
 
-You can write codes to other sprites in the same way to make the RGB LEDs light up in the corresponding colors.
-
-**3. Ball2 sprite (light blue)**
+**3. Μορφή Ball2 (ανοιχτό μπλε)**
 
 .. image:: img/4_blue.png
 
-**4. Ball3 sprite (red)**
+**4. Μορφή Ball3 (κόκκινο)**
 
 .. image:: img/4_red.png
 
-**5. Ball4 sprite (green)**
+**5. Μορφή Ball4 (πράσινο)**
 
 .. image:: img/4_green.png
 
-**6. Ball5 sprite (purple)**
+**6. Μορφή Ball5 (μωβ)**
 
 .. image:: img/4_purple.png
 
