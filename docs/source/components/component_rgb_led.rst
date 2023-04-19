@@ -6,24 +6,24 @@ RGB LED
 .. image:: img/rgb_led.png
     :width: 100
     
-RGB LEDs emit light in various colors. An RGB LED packages three LEDs of red, green, and blue into a transparent or semitransparent plastic shell. It can display various colors by changing the input voltage of the three pins and superimpose them, which, according to statistics, can create 16,777,216 different colors. 
+Τα RGB LED εκπέμπουν φως σε διάφορα χρώματα. Ένα RGB LED εμπεριέχει τρία LED, κόκκινου, πράσινου και μπλε σε ένα διαφανές ή ημιδιαφανές πλαστικό κέλυφος. Μπορεί να εμφανίζει διάφορα χρώματα αλλάζοντας την τάση εισόδου των τριών ακίδων του και υπερθέτοντας τα τρία βασικά χρώματα, με τρόπο που, σύμφωνα με τη στατιστική, μπορεί να δημιουργήσει 16.777.216 διαφορετικά χρώματα.
 
 .. image:: img/rgb_light.png
     :width: 600
 
-RGB LEDs can be categorized into common anode and common cathode ones. In this kit, the latter is used. The **common cathode**, or CC, means to connect the cathodes of the three LEDs. After you connect it with GND and plug in the three pins, the LED will flash the corresponding color. 
+Τα RGB LEDs συναντώνται σε δύο μορφές: με κοινή κάθοδο και με κοινή άνοδο. Σε αυτό το κιτ χρησιμοποιείται η πρώτη μορφή. Η **κοινή κάθοδος** ή CC, σημαίνει ότι συνδέονται οι κάθόδοι των τριών LED. Αφού συνδέσετε τις τρεις ακίδες και το GND στη γείωση, η λυχνία LED θα ανάψει στο αντίστοιχο χρώμα.
 
-Its circuit symbol is shown as figure.
+Το σύμβολο του κυκλώματος ενός RGB LED φαίνεται στο παρακάτω σχήμα.
 
 .. image:: img/rgb_symbol.png
     :width: 300
 
-An RGB LED has 4 pins: the longest one is GND; the others are Red, Green and Blue. Touch its plastic shell and you will find a cut. The pin closest to the cut is the first pin, marked as Red, then GND, Green and Blue in turn. 
+Ένα RGB LED έχει 4 ακίδες: the longest one is GND; the others are Red, Green and Blue. Touch its plastic shell and you will find a cut. The pin closest to the cut is the first pin, marked as Red, then GND, Green and Blue in turn. η μεγαλύτερη σε μηκος είναι η GND ενώ οι άλλες αντιστοιχούν στα χρώματα κόκκινο, πράσινο και μπλε. Αγγίξτε το πλαστικό κέλυφος του LED και θα βρείτε ένα κόψιμο. Η ακίδα που βρίσκεται πλησιέστερα στην τομή είναι η πρώτη ακίδα, η οποία σημειώνεται ως Κόκκινο (Red) και μετά με τη σειρά GND, Πράσινο (Green) και Μπλε (Blue).
 
 .. image:: img/rgb_pin.jpg
     :width: 200
 
-**Example**
+**Παραδείγματα**
 
-* :ref:`ar_rgb` (Arduino Project)
-* :ref:`ar_overheat_monitor` (Arduino Project)
+* :ref:`ar_rgb` (Έργο Arduino)
+* :ref:`ar_overheat_monitor` (Έργο Arduino)
