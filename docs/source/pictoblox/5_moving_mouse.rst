@@ -3,7 +3,7 @@
 2.5 Κινούμενο ποντίκι
 ===================
 
-Σήμερα θα φτιάξουμε ένα παιχνίδι με ένα ποντίκι που ελέγχεται από ένα ποτενσιόμετρο.
+Θα φτιάξουμε τώρα ένα παιχνίδι με ένα ποντίκι που ελέγχεται από το ποτενσιόμετρο.
 
 Όταν κάνετε κλικ στην πράσινη σημαία, το ποντίκι στη σκηνή θα κινείται προς τα εμπρός και όταν περιστρέψετε το ποτενσιόμετρο, το ποντίκι θα αλλάζει κατεύθυνση κίνησης.
 
@@ -47,31 +47,31 @@
 
 **3. Διαβάστε την τιμή του A0**
 
-Store the value of A0 read into the variable **value**.
+Αποθηκεύστε την τιμή που διαβάζετε από το A0 στη μεταβλητή **value**.
 
-* [set my variable to 0]: Set the value of the variable.
-* [read analog pin A0]: Read the value of A0~A5 in the range of 0-1023.
+* [set my variable to 0]: Ορίστε την τιμή της μεταβλητής (εδώ στο 0)
+* [read analog pin A0]: Διαβάστε την τιμή του A0(~A5) στο εύρος 0-1023.
 
 .. image:: img/6_read_a0.png
 
-To be able to read all the way through, you need to use the [forever] block. Click on this script to run it, rotate the potentiometer in both directions, and you will see that the value range is 0-1023.
+Για να μπορείτε να διαβάζετε την τιμή "για πάντα", πρέπει να χρησιμοποιήσετε το μπλοκ [forever]. Κάντε κλικ σε αυτό το σενάριο για να το εκτελέσετε, περιστρέψτε το ποτενσιόμετρο και προς τις δύο κατευθύνσεις και θα δείτε ότι το εύρος τιμών είναι 0-1023.
 
 .. image:: img/6_1023.png
 
 **4. Μετακινήστε τη μορφή**
 
-Use the [move steps] block to move the sprite, run the script and you will see the sprite move from the middle to the right.
+Χρησιμοποιήστε το μπλοκ [move steps] για να μετακινήσετε τη μορφή, εκτελέστε το σενάριο και θα δείτε τη μορφή να μετακινείται από τη μέση προς τα δεξιά.
 
 .. image:: img/6_move.png
 
-**5. Changing the sprite's direction**
+**5. Αλλαγή κατεύθυνσης της μορφής**
 
-Now change the direction of the sprite's movement by the value of A0. Since the value of A0 ranges from 0-1023, but the sprite's rotation direction is -180~180, a [map] block needs to be used.
+Τώρα αλλάξτε την κατεύθυνση της κίνησης της μορφής κατά την τιμή του A0. Δεδομένου ότι η τιμή του A0 κυμαίνεται από 0-1023, αλλά η κατεύθυνση περιστροφής του sprite είναι -180~180, πρέπει να χρησιμοποιηθεί ένα μπλοκ [map].
 
-Also add [when green flag clicked] at the beginning to start the script.
+Προσθέστε επίσης το [when green flag clicked] στην αρχή για να ξεκινήσετε το σενάριο.
 
-* [`point in direction <https://en.scratch-wiki.info/wiki/Point_in_Direction_()_(block)>`_]: Set the steering angle of the sprite, from **Motion** palette.
-* [map from to]: Map a range to another range.
+* [`point in direction <https://en.scratch-wiki.info/wiki/Point_in_Direction_()_(block)>`_]: Ρυθμίστε τη γωνία κατεύθυνσης της μορφής, από την παλέτα **Motion**.
+* [map from to]: Map a range to another range. Αντιστοιχίστε ένα εύρος τιμών σε ένα άλλο.
 
 .. image:: img/6_direction.png
 
