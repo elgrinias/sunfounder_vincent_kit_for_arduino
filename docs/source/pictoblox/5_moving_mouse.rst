@@ -1,26 +1,26 @@
 .. _moving_mouse:
 
-2.5 Moving Mouse
+2.5 Κινούμενο ποντίκι
 ===================
 
-Today we are going to make a mouse toy controlled by a potentiometer.
+Σήμερα θα φτιάξουμε ένα παιχνίδι με ένα ποντίκι που ελέγχεται από ένα ποτενσιόμετρο.
 
-When the green flag is clicked, the mouse on the stage moves forward, and when you rotate the potentiometer, the mouse will change the direction of movement.
+Όταν κάνετε κλικ στην πράσινη σημαία, το ποντίκι στη σκηνή θα κινείται προς τα εμπρός και όταν περιστρέψετε το ποτενσιόμετρο, το ποντίκι θα αλλάζει κατεύθυνση κίνησης.
 
 .. image:: img/6_mouse.png
 
-You Will Learn
+Θα μάθετε
 ---------------------
 
-- Potentiometer principle
-- Read analog pin and ranges
-- Mapping one range to another
-- Moving and changing the direction of sprite
+- Την αρχή λειτουργίας του ποτενσιόμετρου
+- Να διαβάζετε τον αναλογικό ακροδέκτη (pin) και τα εύρη τιμών του
+- Την αντιστοίχιση ενός εύρους σε ένα άλλο
+- Τη μετακίνηση και αλλαγή της κατεύθυνσης μορφής
 
-Build the Circuit
+Κατασκευάστε το κύκλωμα
 -----------------------
 
-The potentiometer is a resistive element with 3 terminals, the 2 side pins are connected to 5V and GND, and the middle pin is connected to A0. After conversion by the ADC converter of the Arduino board, the value range is 0-1023.
+Το ποτενσιόμετρο είναι ένα στοιχείο αντίστασης με 3 ακροδέκτες, οι 2 πλαϊνοί ακροδέκτες συνδέονται στα 5V και GND και ο μεσαίος ακροδέκτης συνδέεται στο A0. Μετά τη μετατροπή από τον μετατροπέα ADC της πλακέτας Arduino, το εύρος τιμών του ποτενσιόμετρου είναι 0-1023.
 
 .. image:: img/circuit/potentiometer_circuit.png
 
@@ -28,24 +28,24 @@ The potentiometer is a resistive element with 3 terminals, the 2 side pins are c
 * :ref:`cpn_potentiometer`
 
 
-Programming
+Προγραμματισμός
 ------------------
 
-**1. Choose a sprite**
+**1. Επιλέξτε μια μορφή**
 
-Delete the default sprite, click the **Choose a Sprite** button in the lower right corner of the sprite area, enter **mouse** in the search box, and then click to add it.
+Διαγράψτε την προεπιλεγμένη μορφή, κάντε κλικ στο κουμπί **Choose a Sprite** στην κάτω δεξιά γωνία της περιοχής των μορφών, πληκτρολογήστε τη λέξη **mouse** στο πλαίσιο αναζήτησης και, στη συνέχεια, κάντε κλικ πάνω του για να το προσθέσετε.
 
 .. image:: img/6_sprite.png
 
-**2. Creating a variable**.
+**2. Δημιουργία μεταβλητής**.
 
-Create a variable called **value** to store the value of the potentiometer read.
+Δημιουργήστε μια μεταβλητή με όνομα **value** για να αποθηκεύσετε την τιμή που θα διαβάσετε από το ποτενσιόμετρο.
 
-Once created, you will see **value** appear inside the **Variables** palette and in the checked state, which means this variable will appear on the stage.
+Μόλις δημιουργηθεί, θα δείτε τη μεταβλητή **value** να εμφανίζεται μέσα στην παλέτα **Variables** και σε κατάσταση "επιλεγμένο", που σημαίνει ότι αυτή η μεταβλητή θα εμφανιστεί στη σκηνή.
 
 .. image:: img/6_value.png
 
-**3. Read the value of A0**
+**3. Διαβάστε την τιμή του A0**
 
 Store the value of A0 read into the variable **value**.
 
@@ -58,7 +58,7 @@ To be able to read all the way through, you need to use the [forever] block. Cli
 
 .. image:: img/6_1023.png
 
-**4. Move the sprite**
+**4. Μετακινήστε τη μορφή**
 
 Use the [move steps] block to move the sprite, run the script and you will see the sprite move from the middle to the right.
 
