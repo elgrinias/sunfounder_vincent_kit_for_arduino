@@ -1,21 +1,21 @@
 .. _cpn_potentiometer:
 
-Potentiometer
+Ποτενσιόμετρο
 ===============
 
 .. image:: img/potentiometer.png
     :align: center
     :width: 150
 
-Potentiometer is also a resistance component with 3 terminals and its resistance value can be adjusted according to some regular variation. 
+Το ποτενσιόμετρο είναι επίσης ένα στοιχείο αντίστασης με 3 ακροδέκτες και η τιμή αντίστασής του μπορεί να ρυθμιστεί σύμφωνα με κάποια τακτική διακύμανση.
 
-Potentiometers come in various shapes, sizes, and values, but they all have the following things in common:
+Τα ποτενσιόμετρα έχουν διάφορα σχήματα, μεγέθη και τιμές, αλλά όλα έχουν τα ακόλουθα κοινά χαρακτηριστικά:
 
-* They have three terminals (or connection points).
-* They have a knob, screw, or slider that can be moved to vary the resistance between the middle terminal and either one of the outer terminals.
-* The resistance between the middle terminal and either one of the outer terminals varies from 0 Ω to the maximum resistance of the pot as the knob, screw, or slider is moved.
+* Έχουν τρεις ακροδέκτες (ή σημεία σύνδεσης).
+* Διαθέτουν ένα κουμπί/διακόπτη, βίδα, ή ολισθητήρα (slider) που μπορεί να κινηθεί για να διαφοροποιήσει την αντίσταση μεταξύ του μεσαίου ακροδέκτη και ενός από τους πλαϊνούς του ακροδέκτες.
+* Η αντίσταση μεταξύ του μεσαίου ακροδέκτη και ενός από τους πλαϊνούς του ακροδέκτες κυμαίνεται από 0 Ω έως τη μέγιστη αντίσταση του εξαρτήματος καθώς μετακινείται το κουμπί, η βίδα ή ο ολισθητήρας.
 
-Here is the circuit symbol of potentiometer. 
+Αυτό είναι το σύμβολο κυκλώματος του ποτενσιόμετρου. 
 
 .. image:: img/potentiometer_symbol.png
     :align: center
