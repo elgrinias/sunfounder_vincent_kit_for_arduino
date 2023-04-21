@@ -7,7 +7,7 @@
     :align: center
     :width: 150
 
-Το ποτενσιόμετρο είναι επίσης ένα στοιχείο αντίστασης με 3 ακροδέκτες και η τιμή αντίστασής του μπορεί να ρυθμιστεί σύμφωνα με κάποια τακτική διακύμανση.
+Το ποτενσιόμετρο είναι επίσης ένα στοιχείο αντίστασης με 3 ακροδέκτες που η τιμή αντίστασής του μπορεί να ρυθμιστεί σύμφωνα με κάποια τακτική διακύμανση.
 
 Τα ποτενσιόμετρα έχουν διάφορα σχήματα, μεγέθη και τιμές, αλλά όλα έχουν τα ακόλουθα κοινά χαρακτηριστικά:
 
@@ -22,26 +22,28 @@
     :width: 400
 
 
-The functions of the potentiometer in the circuit are as follows: 
+Οι λειτουργίες του ποτενσιόμετρου σε κάποιο κύκλωμα μπορεί να είναι οι εξής: 
 
-#. Serving as a voltage divider
+#. Χρησιμεύει ως διαιρέτης τάσης
 
-    Potentiometer is a continuously adjustable resistor. When you adjust the shaft or sliding handle of the potentiometer, the movable contact will slide on the resistor.  At this point, a voltage can be output depending on the voltage applied onto the potentiometer and the angle the movable arm has rotated to or the travel it has made. 
+Το ποτενσιόμετρο είναι μια συνεχώς ρυθμιζόμενη αντίσταση. Όταν ρυθμίζετε τον άξονα ή τη συρόμενη λαβή του ποτενσιόμετρου, η κινητή επαφή θα ολισθαίνει πάνω στην αντίσταση. Σε αυτό το σημείο, μπορεί να εξαχθεί μια τάση ανάλογη προς την τάση που εφαρμόζεται στο ποτενσιόμετρο και τη γωνία στην οποία έχει περιστραφεί ο κινητός βραχίονας ή τη διαδρομή/απόσταση που έχει διανύσει η συρόμενη λαβή.
 
-#. Serving as a rheostat
 
-    When the potentiometer is used as a rheostat, connect the middle pin and one of the other 2 pins in the circuit. Thus you can get a smoothly and continuously changed resistance value within the travel of the moving contact. 
+#. Χρησιμεύει ως ροοστάτης
 
-#. Serving as a current controller
+    Για να χρησιμοποιήσετε το ποτενσιόμετρο ως ροοστάτη, συνδέστε τον μεσαίο ακροδέκτη και έναν μόνο από τους άλλους 2 ακροδέκτες του κυκλώματος. Έτσι, μπορείτε να λάβετε μια ομαλά και συνεχώς μεταβαλλόμενη τιμή αντίστασης κατά τη διαδρομή της κινούμενης επαφής.
 
-    When the potentiometer acts as a current controller, the sliding contact terminal must be connected as one of the output terminals.
 
-If you want to know more about potentiometer, refer to: `Potentiometer - Wikipedia <https://en.wikipedia.org/wiki/Potentiometer.>`_
+#. Λειτουργεί ως ελεγκτής ρεύματος
 
-**Example**
+Για να λειτουργήσει το ποτενσιόμετρο ως ελεγκτής ρεύματος, ο ακροδέκτης συρόμενης επαφής πρέπει να συνδεθεί ως ένας από τους ακροδέκτες εξόδου.
 
-* :ref:`ar_potentiometer` (Arduino Project)
-* :ref:`moving_mouse` (Scratch Project)
-* :ref:`breakout_clone` (Scratch Project)
+Αν θέλετε να μάθετε περισσότερα για το ποτενσιόμετρο, ανατρέξτε στο: `Ποτενσιόμετρο - ΒΙΚΙΠΑΙΔΕΙΑ <https://el.wikipedia.org/wiki/%CE%A0%CE%BF%CF%84%CE%B5%CE%BD%CF%83%CE%B9%CF%8C%CE%BC%CE%B5%CF%84%CF%81%CE%BF.>`_
+
+**Παραδείγματα**
+
+* :ref:`ar_potentiometer` (Έργο Arduino)
+* :ref:`moving_mouse` (Έργο Scratch)
+* :ref:`breakout_clone` (Έργο Scratch)
 
 
